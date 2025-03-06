@@ -114,14 +114,14 @@ class madouClass extends WebApiBase {
                 let document = parse(proData)
                 let vod_content = ''
                 let vod_pic = document.querySelectorAll('body > script')[0].text.match(/shareimage\s+:\s+'(.+)',/)[1] ?? ''
-                let vod_name = document.querySelector('.article-title')?.text ?? ''
+                let vod_name = document.querySelector('.article-title')?.textContent ?? ''
                 let vod_year = ''
                 let vod_director = ''
                 let vod_actor = ''
                 let vod_area = ''
                 let vod_lang = ''
                 let vod_douban_score = ''
-                let type_name = document.querySelector('.article-tags')?.text ?? ''
+                let type_name = document.querySelector('.article-tags')?.textContent ?? ''
 
                 let detModel = new VideoDetail()
                 detModel.vod_year = vod_year

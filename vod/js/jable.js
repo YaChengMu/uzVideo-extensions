@@ -23,8 +23,8 @@ class jableClass extends WebApiBase {
         try {
             const pro = await req(webUrl, { headers: this.headers })
             backData.error = pro.error
-            let cookie = pro.headers['set-cookie']
-            this.cookie = cookie
+            // let cookie = pro.headers['set-cookie']
+            // this.cookie = cookie
             const proData = pro.data
             // UZUtils.debugLog(proData)
             if (proData) {
