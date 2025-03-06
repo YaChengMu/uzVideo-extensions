@@ -356,17 +356,17 @@
         "version": "2",
         "type": 100
     },
-    {
-        "name": "🔞Jable",
-        "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/refs/heads/main/vod/js/jable.js",
-        "instance": "jable20240831",
-        "webSite": "https://jable.tv",
-        "remark": "需海外IP",
-        "noHistory": true,
-        "isLock": true,
-        "version": "3",
-        "type": 100
-    },
+    //{
+        //"name": "🔞Jable",
+        //"api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/refs/heads/main/vod/js/jable.js",
+        //"instance": "jable20240831",
+        //"webSite": "https://jable.tv",
+        //"remark": "需海外IP",
+        //"noHistory": true,
+        //"isLock": true,
+        //"version": "3",
+        //"type": 100
+    //},
     {
         "name": "🔞Netflav",
         "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/refs/heads/main/vod/js/netflav.js",
