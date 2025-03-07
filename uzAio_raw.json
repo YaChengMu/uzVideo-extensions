@@ -109,24 +109,6 @@
         "type": 100
       },
       {
-        "name": "蛋蛋劇",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/dandanju.js",
-        "instance": "dandanju20240704",
-        "webSite": "https://www.dandanju.tv",
-        "remark": "",
-        "version": "3",
-        "type": 100
-      },
-      {
-        "name": "金牌影院",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/jpyy.js",
-        "instance": "jpyy20240716",
-        "webSite": "https://www.ghw9zwp5.com",
-        "remark": "",
-        "version": "2",
-        "type": 100
-      },
-      {
         "name": "4k-av",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/4kav.js",
         "instance": "www4kav20240705",
@@ -186,15 +168,6 @@
         "instance": "ougepan20241030",
         "webSite": "https://woog.nxog.eu.org/",
         "remark": "欧歌网盘",
-        "version": "2",
-        "type": 100
-      },
-      {
-        "name": "🥔土豆粉条",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/tudou.js",
-        "instance": "tudou20241030",
-        "webSite": "https://yunpan.yunpay.cc",
-        "remark": "土豆网盘",
         "version": "2",
         "type": 100
       },
@@ -288,24 +261,13 @@
         "type": 0
       },
       {
-        "name": "🔞短劇天堂",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/duanjutt.js",
-        "instance": "duanjutt20240922",
-        "webSite": "https://duanjutt.tv",
-        "remark": "搜索間隔不能小於10秒",
-        "noHistory": true,
-        "isLock": true,
-        "version": "2",
-        "type": 100
-      },
-      {
         "name": "🔞玩偶姐姐",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/hkdoll.js",
         "webSite": "https://hongkongdollvideo.com",
         "remark": "需海外IP",
         "noHistory": true,
         "isLock": true,
-        "version": "3",
+        "version": "4",
         "type": 101
       },
       {
