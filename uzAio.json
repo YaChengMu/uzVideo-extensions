@@ -382,11 +382,13 @@
       "type": 0
     },
     {
-      "name": "玩偶姐姐",
+      "name": "🔞玩偶姐姐",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/hkdoll.js",
       "instance": "hkdoll20240705",
       "webSite": "https://hongkongdollvideo.com",
       "remark": "",
+      "noHistory": true,
+      "isLock": true,
       "version": "2",
       "type": 100
     },
@@ -430,7 +432,7 @@
       "remark": "",
       "noHistory": true,
       "isLock": true,
-      "version": "2",
+      "version": "3",
       "type": 100
     },
     {
