@@ -301,12 +301,11 @@
     {
       "name": "🔞玩偶姐姐",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/hkdoll.js",
-      "instance": "hkdoll20240705",
       "webSite": "https://hongkongdollvideo.com",
       "remark": "需海外IP",
       "noHistory": true,
       "isLock": true,
-      "version": "2",
+      "version": "3",
       "type": 100
     },
     {
@@ -318,7 +317,7 @@
       "noHistory": true,
       "isLock": true,
       "version": "2",
-      "type": 100
+      "type": 101
     },
     {
       "name": "🔞MISSAV",
