@@ -83,7 +83,6 @@ async function getSubclassList(args) {
         let filter = []
         if (url.includes('categories')) {
             const pro = await req(url, { headers: headers })
-            backData.error = pro.error
             const $ = cheerio.load(pro.data)
             let list = []
             let cat = $('#list_categories_video_categories_list .container .row > div')
@@ -95,7 +94,6 @@ async function getSubclassList(args) {
             filter.push({ name: '類型', list: list })
         } else {
             const pro = await req(url, { headers: appConfig.headers })
-            backData.error = pro.error
             const $ = cheerio.load(pro.data)
             let list = []
             let sort = $('.sorting-nav li')
@@ -128,7 +126,6 @@ async function getSubclassVideoList(args) {
         }
 
         const pro = await req(url, { headers: headers })
-        backData.error = pro.error
         let proData = pro.data
         if (proData) {
             const $ = cheerio.load(proData)
@@ -164,8 +161,8 @@ async function getVideoList(args) {
         headers.cookie = appConfig.cookie
         let videos = []
         if (args.url === appConfig.webSite) {
+            UZUtils.debugLog(args.url)
             const pro = await req(args.url, { headers: headers })
-            backData.error = pro.error
             const $ = cheerio.load(pro.data)
             const lastSection = $('#site-content .container section:last')
             const allvideos = lastSection.find('.row > div')
@@ -185,7 +182,6 @@ async function getVideoList(args) {
                 ? args.url + `?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=release_year&from=${args.page}&_=${Date.now()}`
                 : args.url + `?mode=async&function=get_block&block_id=list_videos_latest_videos_list&sort_by=post_date&from=${args.page}&_=${Date.now()}`
             const pro = await req(url, { headers: appConfig.headers })
-            backData.error = pro.error
             const $ = cheerio.load(pro.data)
             const allvideos = $('.container .row > div')
             allvideos.each((_, e) => {
@@ -269,7 +265,6 @@ async function searchVideo(args) {
         let url = `${appConfig.webSite}/search/${args.searchWord}/?mode=async&function=get_block&block_id=list_videos_videos_list_search_result&q=${args.searchWord
             }&sort_by=&from=${args.page}&_=${Date.now()}`
         const pro = await req(url, { headers: headers })
-        backData.error = pro.error
         const $ = cheerio.load(pro.data)
         let videos = []
         const allvideos = $('#list_videos_videos_list_search_result .container .row > div')
