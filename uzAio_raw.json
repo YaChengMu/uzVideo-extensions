@@ -64,15 +64,6 @@
         "type": 101
       },
       {
-        "name": "厂长视频",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/changZhang20240614.js",
-        "instance": "changZhang20240614",
-        "webSite": "https://czzy.top",
-        "remark": "",
-        "version": "2",
-        "type": 100
-      },
-      {
         "name": "在線之家",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/zxzj.js",
         "instance": "zxzj20240620",
@@ -109,28 +100,10 @@
         "type": 100
       },
       {
-        "name": "素白白",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/subaibai.js",
-        "instance": "sbb20240624",
-        "webSite": "https://www.subaibaiys.com",
-        "remark": "",
-        "version": "2",
-        "type": 100
-      },
-      {
         "name": "兩個BT",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/bttwo.js",
         "instance": "bttwo20240628",
         "webSite": "https://www.bttwoo.com",
-        "remark": "",
-        "version": "2",
-        "type": 100
-      },
-      {
-        "name": "天天影視",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/tiantian.js",
-        "instance": "tiantian20240629",
-        "webSite": "http://op.ysdqjs.cn",
         "remark": "",
         "version": "2",
         "type": 100
@@ -141,7 +114,7 @@
         "instance": "dandanju20240704",
         "webSite": "https://www.dandanju.tv",
         "remark": "",
-        "version": "2",
+        "version": "3",
         "type": 100
       },
       {
@@ -199,15 +172,6 @@
         "type": 100
       },
       {
-        "name": "短劇天堂",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/duanjutt.js",
-        "instance": "duanjutt20240922",
-        "webSite": "https://duanjutt.tv",
-        "remark": "搜索間隔不能小於10秒",
-        "version": "2",
-        "type": 100
-      },
-      {
         "name": "老白聽書",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/laobai.js",
         "instance": "laobai20240831",
@@ -222,24 +186,6 @@
         "instance": "ougepan20241030",
         "webSite": "https://woog.nxog.eu.org/",
         "remark": "欧歌网盘",
-        "version": "2",
-        "type": 100
-      },
-      {
-        "name": "🍔奥秘影视",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/aomipan.js",
-        "instance": "aomipan20241030",
-        "webSite": "https://vip.omii.top/",
-        "remark": "奥秘网盘",
-        "version": "2",
-        "type": 100
-      },
-      {
-        "name": "⛅️云星日记",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/yunxing.js",
-        "instance": "yunxing20241030",
-        "webSite": "https://4k.4u4.cn",
-        "remark": "云星网盘",
         "version": "2",
         "type": 100
       },
@@ -271,14 +217,6 @@
         "type": 101
       },
       {
-        "name": "🪵木偶哥哥",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/mogg.js",
-        "webSite": "http://www.mogg.top",
-        "remark": "网盘 1.6.41 及以上版本可用",
-        "version": "2",
-        "type": 101
-      },
-      {
         "name": "🌾小米网盘",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/xiaomi.js",
         "webSite": "http://milvdou.fun/",
@@ -290,14 +228,6 @@
         "name": "⚡️至臻网盘",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/zhizhen.js",
         "webSite": "https://mihdr.top",
-        "remark": "网盘 1.6.41 及以上版本可用",
-        "version": "3",
-        "type": 101
-      },
-      {
-        "name": "🖍蜡笔小新",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/labipan.js",
-        "webSite": "https://duopan.fun",
         "remark": "网盘 1.6.41 及以上版本可用",
         "version": "3",
         "type": 101
@@ -327,34 +257,10 @@
         "type": 101
       },
       {
-        "name": "🐯小小虎斑",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/huban.js",
-        "webSite": "http://103.45.162.207:20720",
-        "remark": "网盘 1.6.41 及以上版本可用",
-        "version": "1",
-        "type": 101
-      },
-      {
         "name": "🍚特下饭盘",
         "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/xiafan.js",
         "webSite": "http://www.xn--ghqy10g1w0a.xyz/",
         "remark": "网盘 1.6.41 及以上版本可用",
-        "version": "1",
-        "type": 101
-      },
-      {
-        "name": "🤙🏻六趣网盘",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/liuqu.js",
-        "webSite": "https://wp.0v.fit",
-        "remark": "网盘 1.6.41 及以上版本可用",
-        "version": "1",
-        "type": 101
-      },
-      {
-        "name": "💧哔嘀影视",
-        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/biliys.js",
-        "webSite": "https://www.xlys01.com",
-        "remark": "1.6.41 及以上版本可用",
         "version": "1",
         "type": 101
       },
@@ -380,6 +286,17 @@
         "api": "https://cjhwba.com/api.php/provide/vod/",
         "name": "🐝华为吧",
         "type": 0
+      },
+      {
+        "name": "🔞短劇天堂",
+        "api": "https://raw.githubusercontent.com/YYDS678/uzVideo-extensions/refs/heads/main/vod/js/duanjutt.js",
+        "instance": "duanjutt20240922",
+        "webSite": "https://duanjutt.tv",
+        "remark": "搜索間隔不能小於10秒",
+        "noHistory": true,
+        "isLock": true,
+        "version": "2",
+        "type": 100
       },
       {
         "name": "🔞玩偶姐姐",

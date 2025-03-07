@@ -88,8 +88,8 @@ class dandanjuClass extends WebApiBase {
                     let vodUrl = element.querySelector('a.thumb-link')?.attributes['href'] ?? ''
                     let vodPic = element.querySelector('div.ewave-vodlist__thumb')?.attributes['data-original'] ?? ''
                     let vodName = element.querySelector('div.ewave-vodlist__thumb')?.attributes['title'] ?? ''
-                    let vodDiJiJi = element.querySelector('.pic-text')?.text ?? ''
-                    let score = element.querySelector('.pic-tag').text ?? ''
+                    let vodDiJiJi = element.querySelector('.pic-text')?.textContent ?? ''
+                    let score = element.querySelector('.pic-tag').textContent ?? ''
 
                     vodUrl = this.combineUrl(vodUrl)
 
@@ -125,8 +125,8 @@ class dandanjuClass extends WebApiBase {
                     let vodUrl = element.querySelector('a.thumb-link')?.attributes['href'] ?? ''
                     let vodPic = element.querySelector('div.ewave-vodlist__thumb')?.attributes['data-original'] ?? ''
                     let vodName = element.querySelector('div.ewave-vodlist__thumb')?.attributes['title'] ?? ''
-                    let vodDiJiJi = element.querySelector('.pic-text')?.text ?? ''
-                    let score = element.querySelector('.pic-tag').text ?? ''
+                    let vodDiJiJi = element.querySelector('.pic-text')?.textContent ?? ''
+                    let score = element.querySelector('.pic-tag').textContent ?? ''
 
                     vodUrl = this.combineUrl(vodUrl)
 
@@ -163,7 +163,7 @@ class dandanjuClass extends WebApiBase {
                 let document = parse(proData)
                 let vod_content = $('#desc p').html().split('<br>')[2].split('：')[1].replace('</b>', '').trim() || ''
                 let vod_pic = document.querySelector('.ewave-content__thumb img').getAttribute('data-original') ?? ''
-                let vod_name = document.querySelector('h1.title')?.text ?? ''
+                let vod_name = document.querySelector('h1.title')?.textContent ?? ''
                 let detList = document.querySelectorAll('.ewave-content__detail p.data')
                 let vod_year = ''
                 let vod_director = $('.ewave-content__detail p.data').eq(2).text().replace('导演：', '')
