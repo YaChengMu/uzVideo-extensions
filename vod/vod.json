@@ -359,7 +359,6 @@
     {
         "name": "🔞Jable",
         "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/refs/heads/main/vod/js/jable.js",
-        "instance": "jable20240831",
         "webSite": "https://jable.tv",
         "remark": "需海外IP",
         "noHistory": true,
@@ -492,7 +491,7 @@
         "name": "🔞精品资源",
         "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/refs/heads/main/vod/js/jingpinx.js",
         "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
-        "remark": "",
+        "remark": "需海外IP",
         "noHistory": true,
         "isLock": true,
         "version": "4",
