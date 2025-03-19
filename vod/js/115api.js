@@ -1,9 +1,4 @@
 // ignore
-//@name:淫水机资源
-//@version:5
-//@webSite:https://www.xrbsp.com/api/json.php
-//@remark:
-//@type:101
 // 不支持导入，这里只是本地开发用于代码提示
 // 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
 import {} from '../uzVideo.js'
@@ -22,7 +17,7 @@ const appConfig = {
         'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     },
-    _webSite: 'https://www.xrbsp.com/api/json.php',
+    _webSite: 'https://155api.com/api.php/provide/vod/',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量
@@ -55,56 +50,11 @@ const appConfig = {
 async function getClassList(args) {
     var backData = new RepVideoClassList()
     try {
-        backData.data=[
-            {
-                type_name:'最新',
-                type_id:0
-            },
-            {
-                type_name:'中文偷拍',
-                type_id:20
-            },
-            {
-                type_name:'中文无码',
-                type_id:21
-            },
-            {
-                type_name:'中文有码',
-                type_id:22
-            },
-            {
-                type_name:'中文乱伦',
-                type_id:23
-            },
-            {
-                type_name:'中文人妻',
-                type_id:24
-            },
-            {
-                type_name:'中文强奸',
-                type_id:25
-            },
-            {
-                type_name:'中文出轨',
-                type_id:26
-            },
-            {
-                type_name:'中文制服',
-                type_id:27
-            },
-            {
-                type_name:'中文群交',
-                type_id:28
-            },
-            {
-                type_name:'欧美视频',
-                type_id:29
-            },
-            {
-                type_name:'中文动画',
-                type_id:30
-            }
-        ]
+        let url=`${appConfig.webSite}?ac=list&pg=1&t=99`
+        const res=await req(url);
+        let classList=JSON.parse(res.data).class;
+        classList.unshift({type_id:0,type_name:'最新'})
+        backData.data = classList
     } catch (error) {
         backData.error = error.toString()
     }
@@ -133,9 +83,26 @@ async function getSubclassList(args) {
 async function getVideoList(args) {
     var backData = new RepVideoList()
     try {
-        let url=`${appConfig.webSite}?ac=list&pg=${args.page}&t=${args.url}`
+        let url=`${appConfig.webSite}?ac=list&pg=${args.page}&t=${args.url}`;
         const res=await req(url);
-        backData.data = JSON.parse(res.data).list
+        let list=JSON.parse(res.data).list;
+        let ids=list.map(item=>item.vod_id).join(',')
+        let detailRes=await req(`${appConfig.webSite}?ac=detail&ids=${ids}`)
+        let detailList=JSON.parse(detailRes.data).list;
+        let videos = []
+        list.forEach(item=>{
+            let detail=detailList.find(d=>d.vod_id==item.vod_id)
+            let videoDet = new VideoDetail()
+            videoDet.vod_id = item.vod_id
+            videoDet.type_id = item.type_id
+            videoDet.vod_name = item.vod_name
+            videoDet.vod_en = item.vod_en
+            videoDet.vod_pic = detail.vod_pic
+            videoDet.vod_remarks = item.vod_remarks
+            videoDet.vod_year = item.vod_year
+            videos.push(videoDet);
+        });
+        backData.data = videos
     } catch (error) {
         backData.error = error.toString()
     }
@@ -169,7 +136,6 @@ async function getVideoDetail(args) {
         let video={};
         JSON.parse(res.data).list.forEach(item=>{
             video=item;
-            video.vod_play_url=`播放$${video.vod_play_url}`
             return;
         })
         backData.data = video
@@ -206,7 +172,24 @@ async function searchVideo(args) {
         let res = await req(searchUrl, {
             headers: appConfig.headers
         })
-        backData.data = JSON.parse(res.data).list
+        let list=JSON.parse(res.data).list;
+        let ids=list.map(item=>item.vod_id).join(',')
+        let detailRes=await req(`${appConfig.webSite}?ac=detail&ids=${ids}`)
+        let detailList=JSON.parse(detailRes.data).list;
+        let videos = []
+        list.forEach(item=>{
+            let detail=detailList.find(d=>d.vod_id==item.vod_id)
+            let videoDet = new VideoDetail()
+            videoDet.vod_id = item.vod_id
+            videoDet.type_id = item.type_id
+            videoDet.vod_name = item.vod_name
+            videoDet.vod_en = item.vod_en
+            videoDet.vod_pic = detail.vod_pic
+            videoDet.vod_remarks = item.vod_remarks
+            videoDet.vod_year = item.vod_year
+            videos.push(videoDet);
+        });
+        backData.data = videos
     } catch (error) {
         backData.error = error.toString()
     }

@@ -1,9 +1,4 @@
 // ignore
-//@name:淫水机资源
-//@version:5
-//@webSite:https://www.xrbsp.com/api/json.php
-//@remark:
-//@type:101
 // 不支持导入，这里只是本地开发用于代码提示
 // 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
 import {} from '../uzVideo.js'
@@ -22,7 +17,7 @@ const appConfig = {
         'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     },
-    _webSite: 'https://www.xrbsp.com/api/json.php',
+    _webSite: 'https://www.gdlsp.com/api/json.php',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量
@@ -61,48 +56,56 @@ async function getClassList(args) {
                 type_id:0
             },
             {
-                type_name:'中文偷拍',
+                type_name:'无码国产',
                 type_id:20
             },
             {
-                type_name:'中文无码',
+                type_name:'无码偷拍',
                 type_id:21
             },
             {
-                type_name:'中文有码',
+                type_name:'无码人妻',
                 type_id:22
             },
             {
-                type_name:'中文乱伦',
+                type_name:'无码强奸',
                 type_id:23
             },
             {
-                type_name:'中文人妻',
+                type_name:'无码乱伦',
                 type_id:24
             },
             {
-                type_name:'中文强奸',
+                type_name:'无码学生',
                 type_id:25
             },
             {
-                type_name:'中文出轨',
+                type_name:'无码巨乳',
                 type_id:26
             },
             {
-                type_name:'中文制服',
+                type_name:'无码自淫',
                 type_id:27
             },
             {
-                type_name:'中文群交',
+                type_name:'无码群交',
                 type_id:28
             },
             {
-                type_name:'欧美视频',
+                type_name:'无码港台',
                 type_id:29
             },
             {
-                type_name:'中文动画',
+                type_name:'无码韩流',
                 type_id:30
+            },
+            {
+                type_name:'无码变态',
+                type_id:31
+            },
+            {
+                type_name:'无码动画',
+                type_id:32
             }
         ]
     } catch (error) {

@@ -1,4 +1,9 @@
 // ignore
+//@name:黄AV资源
+//@version:5
+//@webSite:https://www.pgxdy.com/api/json.php
+//@remark:
+//@type:101
 // 不支持导入，这里只是本地开发用于代码提示
 // 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
 import {} from '../uzVideo.js'

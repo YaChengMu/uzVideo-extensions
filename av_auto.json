@@ -69,7 +69,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "1",
+    "version": 1,
     "type": 101
   },
   {
@@ -79,7 +79,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "1",
+    "version": 1,
     "type": 101
   },
   {
@@ -89,7 +89,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -99,7 +99,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -109,7 +109,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -119,7 +119,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -129,7 +129,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -139,7 +139,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -149,7 +149,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -159,7 +159,7 @@
     "remark": "",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   },
   {
@@ -169,7 +169,7 @@
     "remark": "需海外IP",
     "noHistory": true,
     "isLock": true,
-    "version": "4",
+    "version": 4,
     "type": 101
   }
 ]
