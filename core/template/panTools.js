@@ -1,10 +1,60 @@
 // ignore
+//@name:扩展名称
+// 版本号纯数字
+//@version:1
+// 备注，没有的话就不填
+//@remark:这是备注
+// 加密 id，没有的话就不填
+//@codeID:
+// 使用的环境变量，没有的话就不填
+//@env:
+// 是否是AV 1是  0否
+//@isAV:0
+//是否弃用 1是  0否
+//@deprecated:0
+// ignore
+
+// ignore
 // 不支持导入，这里只是本地开发用于代码提示
 // 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
-import {} from '../uzVideo.js'
-import {} from './uzHome.js'
-import {} from '../uz3lib.js'
-import {} from '../uzUtils.js'
+import {
+    FilterLabel,
+    FilterTitle,
+    VideoClass,
+    VideoSubclass,
+    VideoDetail,
+    RepVideoClassList,
+    RepVideoSubclassList,
+    RepVideoList,
+    RepVideoDetail,
+    RepVideoPlayUrl,
+    UZArgs,
+    UZSubclassVideoListArgs,
+} from '../core/uzVideo.js'
+
+import {
+    UZUtils,
+    ProData,
+    ReqResponseType,
+    ReqAddressType,
+    req,
+    getEnv,
+    setEnv,
+    goToVerify,
+    openWebToBindEnv,
+    toast,
+    kIsDesktop,
+    kIsAndroid,
+    kIsIOS,
+    kIsWindows,
+    kIsMacOS,
+    kIsTV,
+    kLocale,
+    kAppVersion,
+    formatBackData,
+} from '../core/uzUtils.js'
+
+import { cheerio, Crypto, Encrypt, JSONbig } from '../core/uz3lib.js'
 // ignore
 
 /**
@@ -43,13 +93,17 @@ class PanPlayInfo {
 
         /**
          * 多个播放地址，优先取该值 如果为空取 url
-         * @type {{name:string,url:string,headers:object,priority:number}[]}
+         * @type {{name:string,url:string,headers:object,priority:number,isSniffer:boolean,snifferUA:string, timeOut:number, retry:number}[]}
          * @property {string} name 名称 4k 高清 之类
          * @property {string} url 播放地址
          * @property {object} headers 播放头
          * @property {number} priority 优先级
+         * @property {boolean} isSniffer 是否是嗅探 默认 false, app v1.6.55 及以上版本可用
+         * @property {string} snifferUA 嗅探UA, app v1.6.55 及以上版本可用
+         * @property {number} timeOut 单次嗅探超时时间 单位秒 默认 12s, app v1.6.55 及以上版本可用
+         * @property {number} retry 嗅探重试次数 默认 1 次 ,app v1.6.55 及以上版本可用
          */
-        this.urls = []
+        this.urls = urls
     }
 }
 
@@ -139,7 +193,12 @@ const PanDataType = {
  * 网盘挂载列表
  */
 class PanMountListData {
-    constructor(name = '', panType = PanType.UC, dataType = PanDataType.Dir, data = {}) {
+    constructor(
+        name = '',
+        panType = PanType.UC,
+        dataType = PanDataType.Dir,
+        data = {}
+    ) {
         /**
          * 列表展示名称
          */
@@ -331,7 +390,10 @@ class PanTools {
         } else if (item.panType === PanType.Ali) {
             /// 如果需要 data 请在这里获取
             this.ali.token32 = await this.getAliDataEnv(PanType.Ali, 'Token32')
-            this.ali.token280 = await this.getAliDataEnv(PanType.Ali, 'Token280')
+            this.ali.token280 = await this.getAliDataEnv(
+                PanType.Ali,
+                'Token280'
+            )
             /// 更新 token
             const that = this
             this.ali.updateToken32 = function () {
@@ -361,7 +423,11 @@ class PanTools {
      * @returns {@Promise<[PanMount]>}
      */
     async getSupportMountPan() {
-        return JSON.stringify([new PanMount('阿里盘', PanType.Ali), new PanMount('UC', PanType.UC), new PanMount('Quark', PanType.Quark)])
+        return JSON.stringify([
+            new PanMount('阿里盘', PanType.Ali),
+            new PanMount('UC', PanType.UC),
+            new PanMount('Quark', PanType.Quark),
+        ])
     }
 
     /**

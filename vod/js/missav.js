@@ -1,8 +1,8 @@
 // ignore
-//@name:missav
+//@name:🔞missav
 //@version:2
 //@webSite:https://missav.ai
-//@remark:
+//@remark:需海外IP
 //@type:100
 //@instance:missav20240627
 //@isAV:1

@@ -1,5 +1,5 @@
-//@name:netflav
-//@version:2
+//@name:🔞netflav
+//@version:3
 //@webSite:https://www.netflav.com
 //@remark:
 //@type:100

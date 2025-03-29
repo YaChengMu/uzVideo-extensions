@@ -211,11 +211,15 @@ class RepVideoPlayUrl {
 
         /**
          * 多个播放地址，优先取该值 如果为空取 data
-         * @type {{name:string,url:string,headers:object,priority:number}[]}
+         * @type {{name:string,url:string,headers:object,priority:number,isSniffer:boolean,snifferUA:string, timeOut:number, retry:number}[]}
          * @property {string} name 名称 4k 高清 之类
          * @property {string} url 播放地址
          * @property {object} headers 播放头
          * @property {number} priority 优先级
+         * @property {boolean} isSniffer 是否是嗅探 默认 false, app v1.6.55 及以上版本可用
+         * @property {string} snifferUA 嗅探UA, app v1.6.55 及以上版本可用
+         * @property {number} timeOut 单次嗅探超时时间 单位秒 默认 12s, app v1.6.55 及以上版本可用
+         * @property {number} retry 嗅探重试次数 默认 1 次 ,app v1.6.55 及以上版本可用
          */
         this.urls = []
 
@@ -225,14 +229,14 @@ class RepVideoPlayUrl {
         this.headers
 
         /**
-        * 嗅探对象，headers 依然有效用于播放视频 （v1.6.52 及以上版本）
-        * 不一定能嗅探成功，如果嗅探失败请将链接发送给 https://t.me/uzVideoAppbot
-        * @type {object} 
-        * @property {string} url 嗅探的URL
-        * @property {string} ua 嗅探的UA
-        * @property {number} timeOut 单次嗅探超时时间 单位秒 默认 30s
-        * @property {number} retry 重试次数 默认 1 次
-        */
+         * 嗅探对象，headers 依然有效用于播放视频 （v1.6.52 及以上版本）
+         * 不一定能嗅探成功，如果嗅探失败请将链接发送给 https://t.me/uzVideoAppbot
+         * @type {object}
+         * @property {string} url 嗅探的URL
+         * @property {string} ua 嗅探的UA
+         * @property {number} timeOut 单次嗅探超时时间 单位秒 默认 12s
+         * @property {number} retry 重试次数 默认 1 次
+         */
         this.sniffer = {}
 
         /**
@@ -300,3 +304,24 @@ class UZSubclassVideoListArgs extends UZArgs {
         this.filter = []
     }
 }
+
+// ignore
+export {
+    FilterLabel,
+    FilterTitle,
+    VideoClass,
+    VideoSubclass,
+    VideoDetail,
+    RepVideoClassList,
+    RepVideoSubclassList,
+    RepVideoList,
+    RepVideoDetail,
+    RepVideoPlayUrl,
+    UZArgs,
+    UZSubclassVideoListArgs,
+}
+// ignore
+
+// 已废弃
+// prettier-ignore
+class WebApiBase { constructor() { this.webSite = '', this.uzTag = '' } async getClassList(args) { return JSON.stringify(new RepVideoClassList()) } async getSubclassList(args) { return JSON.stringify(new RepVideoSubclassList()) } async getVideoList(args) { return JSON.stringify(new RepVideoList()) } async getSubclassVideoList(args) { return JSON.stringify(new RepVideoList()) } async getVideoDetail(args) { return JSON.stringify(new RepVideoDetail()) } async getVideoPlayUrl(args) { return JSON.stringify(new RepVideoPlayUrl()) } async searchVideo(args) { return JSON.stringify(new RepVideoList()) } }

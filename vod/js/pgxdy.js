@@ -1,22 +1,16 @@
 // ignore
-//@name:黄AV资源
+//@name:🔞黄AV资源
 //@version:5
 //@webSite:https://www.pgxdy.com/api/json.php
 //@remark:
 //@type:101
+
 // 不支持导入，这里只是本地开发用于代码提示
 // 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
 import {} from '../uzVideo.js'
 import {} from '../uzUtils.js'
 import {} from '../uz3lib.js'
-
 // ignore
-
-//MARK: 注意
-// 直接复制该文件进行扩展开发
-// 请保持以下 变量 及 函数 名称不变
-// 请勿删减，可以新增
-
 const appConfig = {
     headers: {
         'User-Agent':
