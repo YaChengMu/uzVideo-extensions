@@ -2,16 +2,16 @@
   "danMu": [
     {
       "name": "弹幕扩展",
-      "version": 10,
-      "remark": "搜不到就算了，不要那么执着",
-      "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
+      "version": 1,
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
       "type": 400
     },
     {
       "name": "弹幕扩展",
-      "version": 1,
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
+      "version": 10,
+      "remark": "搜不到就算了，不要那么执着",
+      "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
       "type": 400
     }
   ],
@@ -36,6 +36,29 @@
     }
   ],
   "vod": [
+    {
+      "name": "至臻盘",
+      "version": 3,
+      "webSite": "https://mihdr.top",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
+      "type": 101
+    },
+    {
+      "name": "在线之家",
+      "version": 2,
+      "webSite": "https://www.zxzja.com",
+      "instance": "zxzj20240620",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
+      "type": 100
+    },
+    {
+      "name": "老白听书",
+      "version": 2,
+      "webSite": "https://apk-lb-json.fodexin.com",
+      "instance": "laobai20240831",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/laobai.js",
+      "type": 100
+    },
     {
       "name": "mifun",
       "version": 1,
@@ -63,13 +86,6 @@
       "version": 3,
       "webSite": "https://woog.nxog.eu.org",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ouge.js",
-      "type": 101
-    },
-    {
-      "name": "🔞黄AV资源",
-      "version": 5,
-      "webSite": "https://www.pgxdy.com/api/json.php",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pgxdy.js",
       "type": 101
     },
     {
@@ -117,28 +133,6 @@
       "type": 101
     },
     {
-      "name": "🔞淫水机资源",
-      "version": 5,
-      "webSite": "https://www.xrbsp.com/api/json.php",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xrbsp.js",
-      "type": 101
-    },
-    {
-      "name": "至臻盘",
-      "version": 3,
-      "webSite": "https://mihdr.top",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
-      "type": 101
-    },
-    {
-      "name": "在线之家",
-      "version": 2,
-      "webSite": "https://www.zxzja.com",
-      "instance": "zxzj20240620",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
-      "type": 100
-    },
-    {
       "name": "囧次元",
       "version": 1,
       "webSite": "http://yhhy.zshtys888.com",
@@ -147,12 +141,11 @@
       "type": 101
     },
     {
-      "name": "老白听书",
-      "version": 2,
-      "webSite": "https://apk-lb-json.fodexin.com",
-      "instance": "laobai20240831",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/laobai.js",
-      "type": 100
+      "name": "eacg2",
+      "version": 1,
+      "webSite": "https://eacg1.com",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg2.js",
+      "type": 101
     },
     {
       "name": "瓜子 app",
@@ -220,13 +213,6 @@
       "version": 1,
       "webSite": "https://eacg1.com",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg.js",
-      "type": 101
-    },
-    {
-      "name": "eacg2",
-      "version": 1,
-      "webSite": "https://eacg1.com",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg2.js",
       "type": 101
     },
     {

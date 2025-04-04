@@ -1,5 +1,19 @@
 [
   {
+    "name": "🔞淫水机资源",
+    "version": 5,
+    "webSite": "https://www.xrbsp.com/api/json.php",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xrbsp.js",
+    "type": 101
+  },
+  {
+    "name": "🔞乐播资源",
+    "version": 4,
+    "webSite": "https://lbapi9.com/api.php/provide/vod/",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/lbapi9.js",
+    "type": 101
+  },
+  {
     "name": "🔞麻豆",
     "version": 2,
     "remark": "需海外IP",
@@ -32,6 +46,21 @@
     "type": 100
   },
   {
+    "name": "🔞黄AV资源",
+    "version": 5,
+    "webSite": "https://www.pgxdy.com/api/json.php",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pgxdy.js",
+    "type": 101
+  },
+  {
+    "name": "🔞精品资源",
+    "version": 4,
+    "remark": "需海外IP",
+    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jingpinx.js",
+    "type": 101
+  },
+  {
     "name": "🔞鸡坤资源",
     "version": 4,
     "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
@@ -46,10 +75,17 @@
     "type": 101
   },
   {
-    "name": "🔞乐播资源",
+    "name": "🔞番号资源",
     "version": 4,
-    "webSite": "https://lbapi9.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/lbapi9.js",
+    "webSite": "http://fhapi9.com/api.php/provide/vod/",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/fhapi9.js",
+    "type": 101
+  },
+  {
+    "name": "🔞香奶儿资源",
+    "version": 4,
+    "webSite": "https://www.gdlsp.com/api/json.php",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gdlsp.js",
     "type": 101
   },
   {
@@ -66,14 +102,6 @@
     "remark": "需海外IP",
     "webSite": "https://jable.tv",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jable.js",
-    "type": 101
-  },
-  {
-    "name": "🔞精品资源",
-    "version": 4,
-    "remark": "需海外IP",
-    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jingpinx.js",
     "type": 101
   },
   {
@@ -95,20 +123,6 @@
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ddapi.js",
-    "type": 101
-  },
-  {
-    "name": "🔞番号资源",
-    "version": 4,
-    "webSite": "http://fhapi9.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/fhapi9.js",
-    "type": 101
-  },
-  {
-    "name": "🔞香奶儿资源",
-    "version": 4,
-    "webSite": "https://www.gdlsp.com/api/json.php",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gdlsp.js",
     "type": 101
   }
 ]
