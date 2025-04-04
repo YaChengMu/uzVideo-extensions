@@ -3,6 +3,7 @@
 //@version:5
 //@webSite:https://www.pgxdy.com/api/json.php
 //@remark:
+//@isAV:1
 //@type:101
 
 // 不支持导入，这里只是本地开发用于代码提示
