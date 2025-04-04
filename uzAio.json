@@ -2,33 +2,25 @@
   "danMu": [
     {
       "name": "弹幕扩展",
-      "version": 1,
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
-      "type": 400
-    },
-    {
-      "name": "弹幕扩展",
       "version": 10,
       "remark": "搜不到就算了，不要那么执着",
       "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
       "type": 400
+    },
+    {
+      "name": "弹幕扩展",
+      "version": 1,
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
+      "type": 400
     }
   ],
   "panTools": [
     {
-      "name": "UC、夸克、阿里 网盘解析工具",
-      "version": 14,
-      "remark": "iOS14 以上版本可用",
-      "env": "UCCookie##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools.js",
-      "type": 300
-    },
-    {
       "name": "夸克|123|189|UC 网盘解析工具",
       "version": 17,
       "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
-      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##自动获取，不可用时点击删除再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频",
+      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools2.js",
       "type": 300
     }
@@ -44,29 +36,6 @@
     }
   ],
   "vod": [
-    {
-      "name": "至臻盘",
-      "version": 3,
-      "webSite": "https://mihdr.top",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
-      "type": 101
-    },
-    {
-      "name": "在线之家",
-      "version": 2,
-      "webSite": "https://www.zxzja.com",
-      "instance": "zxzj20240620",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
-      "type": 100
-    },
-    {
-      "name": "老白听书",
-      "version": 2,
-      "webSite": "https://apk-lb-json.fodexin.com",
-      "instance": "laobai20240831",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/laobai.js",
-      "type": 100
-    },
     {
       "name": "mifun",
       "version": 1,
@@ -155,12 +124,35 @@
       "type": 101
     },
     {
+      "name": "至臻盘",
+      "version": 3,
+      "webSite": "https://mihdr.top",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
+      "type": 101
+    },
+    {
+      "name": "在线之家",
+      "version": 2,
+      "webSite": "https://www.zxzja.com",
+      "instance": "zxzj20240620",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
+      "type": 100
+    },
+    {
       "name": "囧次元",
       "version": 1,
       "webSite": "http://yhhy.zshtys888.com",
       "codeID": "KwdXRAgsew9EnmShYGEAl3nnHnhyDjgp",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jocy.js",
       "type": 101
+    },
+    {
+      "name": "老白听书",
+      "version": 2,
+      "webSite": "https://apk-lb-json.fodexin.com",
+      "instance": "laobai20240831",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/laobai.js",
+      "type": 100
     },
     {
       "name": "瓜子 app",

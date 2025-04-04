@@ -1,28 +1,5 @@
 [
   {
-    "name": "至臻盘",
-    "version": 3,
-    "webSite": "https://mihdr.top",
-    "api": "vod/js/zhizhen.js",
-    "type": 101
-  },
-  {
-    "name": "在线之家",
-    "version": 2,
-    "webSite": "https://www.zxzja.com",
-    "instance": "zxzj20240620",
-    "api": "vod/js/zxzj.js",
-    "type": 100
-  },
-  {
-    "name": "老白听书",
-    "version": 2,
-    "webSite": "https://apk-lb-json.fodexin.com",
-    "instance": "laobai20240831",
-    "api": "vod/js/laobai.js",
-    "type": 100
-  },
-  {
     "name": "mifun",
     "version": 1,
     "webSite": "http://www.mifun.tw",
@@ -110,12 +87,35 @@
     "type": 101
   },
   {
+    "name": "至臻盘",
+    "version": 3,
+    "webSite": "https://mihdr.top",
+    "api": "vod/js/zhizhen.js",
+    "type": 101
+  },
+  {
+    "name": "在线之家",
+    "version": 2,
+    "webSite": "https://www.zxzja.com",
+    "instance": "zxzj20240620",
+    "api": "vod/js/zxzj.js",
+    "type": 100
+  },
+  {
     "name": "囧次元",
     "version": 1,
     "webSite": "http://yhhy.zshtys888.com",
     "codeID": "KwdXRAgsew9EnmShYGEAl3nnHnhyDjgp",
     "api": "vod/js/jocy.js",
     "type": 101
+  },
+  {
+    "name": "老白听书",
+    "version": 2,
+    "webSite": "https://apk-lb-json.fodexin.com",
+    "instance": "laobai20240831",
+    "api": "vod/js/laobai.js",
+    "type": 100
   },
   {
     "name": "瓜子 app",
@@ -208,18 +208,10 @@
     "type": 0
   },
   {
-    "name": "UC、夸克、阿里 网盘解析工具",
-    "version": 14,
-    "remark": "iOS14 以上版本可用",
-    "env": "UCCookie##用于播放UC网盘视频&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称",
-    "api": "panTools/js/panTools.js",
-    "type": 300
-  },
-  {
     "name": "夸克|123|189|UC 网盘解析工具",
     "version": 17,
     "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
-    "env": "UCCookie##用于播放UC网盘视频&&UC_UT##自动获取，不可用时点击删除再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频",
+    "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频",
     "api": "panTools/js/panTools2.js",
     "type": 300
   },
@@ -233,16 +225,16 @@
   },
   {
     "name": "弹幕扩展",
-    "version": 1,
-    "api": "danMu/js/danMu.js",
-    "type": 400
-  },
-  {
-    "name": "弹幕扩展",
     "version": 10,
     "remark": "搜不到就算了，不要那么执着",
     "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
     "api": "danMu/js/danMu2.txt",
+    "type": 400
+  },
+  {
+    "name": "弹幕扩展",
+    "version": 1,
+    "api": "danMu/js/danMu.js",
     "type": 400
   },
   {
@@ -262,13 +254,6 @@
     "api": "https://tv.iill.top/m3u/Sport",
     "type": 10,
     "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
-  },
-  {
-    "name": "🔞乐播资源",
-    "version": 4,
-    "webSite": "https://lbapi9.com/api.php/provide/vod/",
-    "api": "vod/js/lbapi9.js",
-    "type": 101
   },
   {
     "name": "🔞麻豆",
@@ -303,22 +288,6 @@
     "type": 100
   },
   {
-    "name": "🔞jable",
-    "version": 3,
-    "remark": "需海外IP",
-    "webSite": "https://jable.tv",
-    "api": "vod/js/jable.js",
-    "type": 101
-  },
-  {
-    "name": "🔞精品资源",
-    "version": 4,
-    "remark": "需海外IP",
-    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
-    "api": "vod/js/jingpinx.js",
-    "type": 101
-  },
-  {
     "name": "🔞鸡坤资源",
     "version": 4,
     "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
@@ -333,17 +302,10 @@
     "type": 101
   },
   {
-    "name": "🔞番号资源",
+    "name": "🔞乐播资源",
     "version": 4,
-    "webSite": "http://fhapi9.com/api.php/provide/vod/",
-    "api": "vod/js/fhapi9.js",
-    "type": 101
-  },
-  {
-    "name": "🔞香奶儿资源",
-    "version": 4,
-    "webSite": "https://www.gdlsp.com/api/json.php",
-    "api": "vod/js/gdlsp.js",
+    "webSite": "https://lbapi9.com/api.php/provide/vod/",
+    "api": "vod/js/lbapi9.js",
     "type": 101
   },
   {
@@ -352,6 +314,22 @@
     "remark": "需海外IP",
     "webSite": "https://hongkongdollvideo.com",
     "api": "vod/js/hkdoll.js",
+    "type": 101
+  },
+  {
+    "name": "🔞jable",
+    "version": 3,
+    "remark": "需海外IP",
+    "webSite": "https://jable.tv",
+    "api": "vod/js/jable.js",
+    "type": 101
+  },
+  {
+    "name": "🔞精品资源",
+    "version": 4,
+    "remark": "需海外IP",
+    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
+    "api": "vod/js/jingpinx.js",
     "type": 101
   },
   {
@@ -373,6 +351,20 @@
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
     "api": "vod/js/ddapi.js",
+    "type": 101
+  },
+  {
+    "name": "🔞番号资源",
+    "version": 4,
+    "webSite": "http://fhapi9.com/api.php/provide/vod/",
+    "api": "vod/js/fhapi9.js",
+    "type": 101
+  },
+  {
+    "name": "🔞香奶儿资源",
+    "version": 4,
+    "webSite": "https://www.gdlsp.com/api/json.php",
+    "api": "vod/js/gdlsp.js",
     "type": 101
   }
 ]
