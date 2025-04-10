@@ -1,21 +1,29 @@
 [
   {
-    "name": "至臻盘",
-    "version": 3,
-    "webSite": "https://mihdr.top",
-    "api": "vod/js/zhizhen.js",
+    "name": "[解]通用官方采集",
+    "version": 2,
+    "remark": "官方采集扩展，需配合网盘解析工具使用。如采集服务不可用，请自行寻找更换采集地址。",
+    "webSite": "https://zy.hls.one/api.php/provide/vod",
+    "api": "vod/js/cms.js",
     "type": 101
   },
   {
-    "name": "在线之家",
+    "name": "[直]韩剧看看",
     "version": 2,
-    "webSite": "https://www.zxzja.com",
-    "instance": "zxzj20240620",
-    "api": "vod/js/zxzj.js",
+    "webSite": "https://www.hanjukankan.com",
+    "instance": "hjkk20240624",
+    "api": "vod/js/hjkk.js",
     "type": 100
   },
   {
-    "name": "老白听书",
+    "name": "[直]蛋蛋剧",
+    "version": 2,
+    "webSite": "https://www.dandanju.tv",
+    "api": "vod/js/dandanju.js",
+    "type": 101
+  },
+  {
+    "name": "[直]老白听书",
     "version": 2,
     "webSite": "https://apk-lb-json.fodexin.com",
     "instance": "laobai20240831",
@@ -23,95 +31,15 @@
     "type": 100
   },
   {
-    "name": "mifun",
-    "version": 1,
-    "webSite": "http://www.mifun.tw",
-    "api": "vod/js/mifun.js",
-    "type": 101
-  },
-  {
-    "name": "南风短剧",
-    "version": 1,
-    "webSite": "https://www.nanf.cc",
-    "api": "vod/js/nanfdj.js",
-    "type": 101
-  },
-  {
-    "name": "欧乐影视",
+    "name": "[直]瓜子web",
     "version": 2,
-    "webSite": "https://www.olevod.tv",
-    "instance": "olevod20240620",
-    "api": "vod/js/olevod.js",
+    "webSite": "https://api.zaqohu.com",
+    "instance": "gzys20240822",
+    "api": "vod/js/gzys.js",
     "type": 100
   },
   {
-    "name": "讴歌盘",
-    "version": 3,
-    "webSite": "https://woog.nxog.eu.org",
-    "api": "vod/js/ouge.js",
-    "type": 101
-  },
-  {
-    "name": "云盘资源网",
-    "version": 1,
-    "webSite": "https://res.yunpan.win",
-    "instance": "resYunPan20241120",
-    "api": "vod/js/resyunpan.js",
-    "type": 100
-  },
-  {
-    "name": "烧火",
-    "version": 2,
-    "webSite": "https://saohuo.tv",
-    "instance": "saohuo20240623",
-    "api": "vod/js/saohuo.js",
-    "type": 100
-  },
-  {
-    "name": "闪电优汐",
-    "version": 1,
-    "webSite": "http://1.95.79.193/",
-    "api": "vod/js/shandian.js",
-    "type": 101
-  },
-  {
-    "name": "玩偶哥哥",
-    "version": 3,
-    "webSite": "http://wogg.xxooo.cf",
-    "api": "vod/js/wobg.js",
-    "type": 101
-  },
-  {
-    "name": "特下饭",
-    "version": 1,
-    "webSite": "http://www.xn--ghqy10g1w0a.xyz/",
-    "api": "vod/js/xiafan.js",
-    "type": 101
-  },
-  {
-    "name": "小米盘",
-    "version": 3,
-    "webSite": "http://www.mucpan.cc",
-    "api": "vod/js/xiaomi.js",
-    "type": 101
-  },
-  {
-    "name": "囧次元",
-    "version": 1,
-    "webSite": "http://yhhy.zshtys888.com",
-    "codeID": "KwdXRAgsew9EnmShYGEAl3nnHnhyDjgp",
-    "api": "vod/js/jocy.js",
-    "type": 101
-  },
-  {
-    "name": "eacg2",
-    "version": 1,
-    "webSite": "https://eacg1.com",
-    "api": "vod/js/eacg2.js",
-    "type": 101
-  },
-  {
-    "name": "瓜子 app",
+    "name": "[直]瓜子 app",
     "version": 2,
     "remark": "v1.6.53 及以上版本",
     "webSite": "https://api.9cec79d.com",
@@ -121,61 +49,163 @@
     "type": 100
   },
   {
-    "name": "瓜子web",
+    "name": "[直]烧火",
     "version": 2,
-    "webSite": "https://api.zaqohu.com",
-    "instance": "gzys20240822",
-    "api": "vod/js/gzys.js",
+    "webSite": "https://saohuo.tv",
+    "instance": "saohuo20240623",
+    "api": "vod/js/saohuo.js",
     "type": 100
   },
   {
-    "name": "韩剧看看",
+    "name": "[直]欧乐影视",
     "version": 2,
-    "webSite": "https://www.hanjukankan.com",
-    "instance": "hjkk20240624",
-    "api": "vod/js/hjkk.js",
+    "webSite": "https://www.olevod.tv",
+    "instance": "olevod20240620",
+    "api": "vod/js/olevod.js",
     "type": 100
   },
   {
-    "name": "虎斑盘",
+    "name": "[直]在线之家",
+    "version": 2,
+    "webSite": "https://www.zxzja.com",
+    "instance": "zxzj20240620",
+    "api": "vod/js/zxzj.js",
+    "type": 100
+  },
+  {
+    "name": "[直]囧次元",
     "version": 1,
-    "webSite": "http://103.45.162.207:20720",
-    "api": "vod/js/huban.js",
+    "webSite": "http://yhhy.zshtys888.com",
+    "codeID": "KwdXRAgsew9EnmShYGEAl3nnHnhyDjgp",
+    "api": "vod/js/jocy.js",
     "type": 101
   },
   {
-    "name": "aggl",
-    "version": 1,
-    "webSite": "https://anime.girigirilove.com",
-    "api": "vod/js/aggl.js",
-    "type": 101
-  },
-  {
-    "name": "两个bt",
+    "name": "[直]两个bt",
     "version": 2,
     "webSite": "https://www.bttwoo.com",
     "api": "vod/js/bttwo.js",
     "type": 101
   },
   {
-    "name": "clicli",
+    "name": "[直]4k-av",
+    "version": 2,
+    "webSite": "https://4k-av.com",
+    "instance": "www4kav20240705",
+    "api": "vod/js/4kav.js",
+    "type": 100
+  },
+  {
+    "name": "[盘]闪电优汐",
     "version": 1,
-    "webSite": "https://www.clicli.pro",
-    "api": "vod/js/clicli.js",
+    "webSite": "http://1.95.79.193/",
+    "api": "vod/js/shandian.js",
     "type": 101
   },
   {
-    "name": "多多盘",
+    "name": "[盘]讴歌盘",
+    "version": 3,
+    "webSite": "https://woog.nxog.eu.org",
+    "api": "vod/js/ouge.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]虎斑盘",
+    "version": 1,
+    "webSite": "http://103.45.162.207:20720",
+    "api": "vod/js/huban.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]至臻盘",
+    "version": 3,
+    "webSite": "https://mihdr.top",
+    "api": "vod/js/zhizhen.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]玩偶哥哥",
+    "version": 3,
+    "webSite": "http://wogg.xxooo.cf",
+    "api": "vod/js/wobg.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]特下饭",
+    "version": 1,
+    "webSite": "http://www.xn--ghqy10g1w0a.xyz/",
+    "api": "vod/js/xiafan.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]木偶",
+    "version": 2,
+    "webSite": "https://mo.91muou.icu",
+    "api": "vod/js/mogg.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]小米盘",
+    "version": 3,
+    "webSite": "http://www.mucpan.cc",
+    "api": "vod/js/xiaomi.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]多多盘",
     "version": 3,
     "webSite": "https://tv.yydsys.top",
     "api": "vod/js/duoduo.js",
     "type": 101
   },
   {
-    "name": "eacg",
+    "name": "[盘]南风短剧",
+    "version": 1,
+    "webSite": "https://www.nanf.cc",
+    "api": "vod/js/nanfdj.js",
+    "type": 101
+  },
+  {
+    "name": "[盘]云盘资源网",
+    "version": 1,
+    "webSite": "https://res.yunpan.win",
+    "instance": "resYunPan20241120",
+    "api": "vod/js/resyunpan.js",
+    "type": 100
+  },
+  {
+    "name": "[嗅]mifun",
+    "version": 1,
+    "webSite": "http://www.mifun.tw",
+    "api": "vod/js/mifun.js",
+    "type": 101
+  },
+  {
+    "name": "[嗅]eacg2",
+    "version": 1,
+    "webSite": "https://eacg1.com",
+    "api": "vod/js/eacg2.js",
+    "type": 101
+  },
+  {
+    "name": "[嗅]eacg",
     "version": 1,
     "webSite": "https://eacg1.com",
     "api": "vod/js/eacg.js",
+    "type": 101
+  },
+  {
+    "name": "[嗅]clicli",
+    "version": 1,
+    "webSite": "https://www.clicli.pro",
+    "api": "vod/js/clicli.js",
+    "type": 101
+  },
+  {
+    "name": "[嗅]aggl",
+    "version": 1,
+    "webSite": "https://anime.girigirilove.com",
+    "api": "vod/js/aggl.js",
     "type": 101
   },
   {
@@ -194,10 +224,10 @@
     "type": 0
   },
   {
-    "name": "夸克|123|189|UC 网盘解析工具",
-    "version": 17,
+    "name": "夸克|123|189|UC|解析 网盘解析工具",
+    "version": 18,
     "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
-    "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频",
+    "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
     "api": "panTools/js/panTools2.js",
     "type": 300
   },
@@ -242,111 +272,6 @@
     "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
   },
   {
-    "name": "🔞淫水机资源",
-    "version": 5,
-    "webSite": "https://www.xrbsp.com/api/json.php",
-    "api": "vod/js/xrbsp.js",
-    "type": 101
-  },
-  {
-    "name": "🔞乐播资源",
-    "version": 4,
-    "webSite": "https://lbapi9.com/api.php/provide/vod/",
-    "api": "vod/js/lbapi9.js",
-    "type": 101
-  },
-  {
-    "name": "🔞麻豆",
-    "version": 2,
-    "remark": "需海外IP",
-    "webSite": "https://madou.club",
-    "api": "vod/js/madou.js",
-    "type": 101
-  },
-  {
-    "name": "🔞missav",
-    "version": 2,
-    "remark": "需海外IP",
-    "webSite": "https://missav.ai",
-    "instance": "missav20240627",
-    "api": "vod/js/missav.js",
-    "type": 100
-  },
-  {
-    "name": "🔞美少女资源",
-    "version": 4,
-    "webSite": "https://www.msnii.com/api/json.php",
-    "api": "vod/js/msnii.js",
-    "type": 101
-  },
-  {
-    "name": "🔞netflav",
-    "version": 3,
-    "webSite": "https://www.netflav.com",
-    "instance": "netflav20240905",
-    "api": "vod/js/netflav.js",
-    "type": 100
-  },
-  {
-    "name": "🔞黄AV资源",
-    "version": 5,
-    "webSite": "https://www.pgxdy.com/api/json.php",
-    "api": "vod/js/pgxdy.js",
-    "type": 101
-  },
-  {
-    "name": "🔞精品资源",
-    "version": 4,
-    "remark": "需海外IP",
-    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
-    "api": "vod/js/jingpinx.js",
-    "type": 101
-  },
-  {
-    "name": "🔞鸡坤资源",
-    "version": 4,
-    "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
-    "api": "vod/js/jkunzyapi.js",
-    "type": 101
-  },
-  {
-    "name": "🔞白嫖资源",
-    "version": 4,
-    "webSite": "https://www.kxgav.com/api/json.php",
-    "api": "vod/js/kxgav.js",
-    "type": 101
-  },
-  {
-    "name": "🔞番号资源",
-    "version": 4,
-    "webSite": "http://fhapi9.com/api.php/provide/vod/",
-    "api": "vod/js/fhapi9.js",
-    "type": 101
-  },
-  {
-    "name": "🔞香奶儿资源",
-    "version": 4,
-    "webSite": "https://www.gdlsp.com/api/json.php",
-    "api": "vod/js/gdlsp.js",
-    "type": 101
-  },
-  {
-    "name": "🔞玩偶姐姐",
-    "version": 6,
-    "remark": "需海外IP",
-    "webSite": "https://hongkongdollvideo.com",
-    "api": "vod/js/hkdoll.js",
-    "type": 101
-  },
-  {
-    "name": "🔞jable",
-    "version": 3,
-    "remark": "需海外IP",
-    "webSite": "https://jable.tv",
-    "api": "vod/js/jable.js",
-    "type": 101
-  },
-  {
     "name": "🔞155资源",
     "version": 4,
     "webSite": "https://155api.com/api.php/provide/vod/",
@@ -361,10 +286,115 @@
     "type": 101
   },
   {
+    "name": "🔞jable",
+    "version": 3,
+    "remark": "需海外IP",
+    "webSite": "https://jable.tv",
+    "api": "vod/js/jable.js",
+    "type": 101
+  },
+  {
+    "name": "🔞missav",
+    "version": 2,
+    "remark": "需海外IP",
+    "webSite": "https://missav.ai",
+    "instance": "missav20240627",
+    "api": "vod/js/missav.js",
+    "type": 100
+  },
+  {
+    "name": "🔞netflav",
+    "version": 3,
+    "webSite": "https://www.netflav.com",
+    "instance": "netflav20240905",
+    "api": "vod/js/netflav.js",
+    "type": 100
+  },
+  {
+    "name": "🔞乐播资源",
+    "version": 4,
+    "webSite": "https://lbapi9.com/api.php/provide/vod/",
+    "api": "vod/js/lbapi9.js",
+    "type": 101
+  },
+  {
+    "name": "🔞淫水机资源",
+    "version": 5,
+    "webSite": "https://www.xrbsp.com/api/json.php",
+    "api": "vod/js/xrbsp.js",
+    "type": 101
+  },
+  {
     "name": "🔞滴滴资源",
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
     "api": "vod/js/ddapi.js",
+    "type": 101
+  },
+  {
+    "name": "🔞玩偶姐姐",
+    "version": 6,
+    "remark": "需海外IP",
+    "webSite": "https://hongkongdollvideo.com",
+    "api": "vod/js/hkdoll.js",
+    "type": 101
+  },
+  {
+    "name": "🔞番号资源",
+    "version": 4,
+    "webSite": "http://fhapi9.com/api.php/provide/vod/",
+    "api": "vod/js/fhapi9.js",
+    "type": 101
+  },
+  {
+    "name": "🔞白嫖资源",
+    "version": 4,
+    "webSite": "https://www.kxgav.com/api/json.php",
+    "api": "vod/js/kxgav.js",
+    "type": 101
+  },
+  {
+    "name": "🔞精品资源",
+    "version": 4,
+    "remark": "需海外IP",
+    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
+    "api": "vod/js/jingpinx.js",
+    "type": 101
+  },
+  {
+    "name": "🔞美少女资源",
+    "version": 4,
+    "webSite": "https://www.msnii.com/api/json.php",
+    "api": "vod/js/msnii.js",
+    "type": 101
+  },
+  {
+    "name": "🔞香奶儿资源",
+    "version": 4,
+    "webSite": "https://www.gdlsp.com/api/json.php",
+    "api": "vod/js/gdlsp.js",
+    "type": 101
+  },
+  {
+    "name": "🔞鸡坤资源",
+    "version": 4,
+    "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
+    "api": "vod/js/jkunzyapi.js",
+    "type": 101
+  },
+  {
+    "name": "🔞麻豆",
+    "version": 2,
+    "remark": "需海外IP",
+    "webSite": "https://madou.club",
+    "api": "vod/js/madou.js",
+    "type": 101
+  },
+  {
+    "name": "🔞黄AV资源",
+    "version": 5,
+    "webSite": "https://www.pgxdy.com/api/json.php",
+    "api": "vod/js/pgxdy.js",
     "type": 101
   }
 ]
