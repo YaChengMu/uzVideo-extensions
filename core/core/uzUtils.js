@@ -261,6 +261,7 @@ const ReqAddressType = {
  * @param {object} options.headers 请求头
  * @param {string} options.method 请求方法
  * @param {object} options.data 请求数据
+ * @param {bool} options.isBinary data 是否以二进制形式发送请求数据，前提将 options.data 转为 number 数组（v1.6.57 及以上版本）
  * @param {object} options.queryParameters 查询参数（v1.6.3 及以上版本）
  * @param {number} options.sendTimeout  发送超时时间 （v1.6.52 及以上版本）
  * @param {number} options.receiveTimeout  接收超时时间 （v1.6.52 及以上版本）
@@ -276,6 +277,7 @@ async function req(url, options) {
     const proData = new ProData()
 
     try {
+        options = options || {}
         if (options.queryParameters) {
             const queryString = new URLSearchParams(options.queryParameters).toString()
             url = queryString ? `${url}${url.includes('?') ? '&' : '?'}${queryString}` : url
@@ -392,7 +394,7 @@ async function req(url, options) {
  */
 async function getEnv(uzTag, key) {
     // ignore
-    return debugStore[uzTag + key]
+    return debugStore[uzTag + key] ?? ''
     // ignore
 
     let res = await sendMessage('getEnv', JSON.stringify({ uzTag: uzTag, key: key }))
