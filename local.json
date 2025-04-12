@@ -136,13 +136,6 @@
     "type": 101
   },
   {
-    "name": "[盘]小米盘",
-    "version": 3,
-    "webSite": "http://www.mucpan.cc",
-    "api": "vod/js/xiaomi.js",
-    "type": 101
-  },
-  {
     "name": "[盘]多多盘",
     "version": 3,
     "webSite": "https://tv.yydsys.top",
