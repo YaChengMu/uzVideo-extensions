@@ -1,5 +1,5 @@
 //@name:[直]蛋蛋剧
-//@version:2
+//@version:3
 //@webSite:https://www.dandanju.tv
 //@remark:
 
@@ -14,7 +14,7 @@ import { } from '../../core/uzUtils.js'
 const appConfig = {
     _webSite: 'https://www.dandanju.tv',
     headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
     },
     ignoreClassName: ['发布页面'],
 
@@ -39,7 +39,7 @@ const appConfig = {
     },
     set uzTag(value) {
         this._uzTag = value
-    },
+    }
 }
 
 /**
@@ -130,35 +130,94 @@ async function getClassList(args) {
  */
 async function getVideoList(args) {
     if (args.url === 'home') return getHomeContent()
-    let listUrl = removeTrailingSlash(args.url) + '-' + args.page + '.html'
+    let id = args.url.replace(appConfig.webSite + "/type/", "").replace(".html", "")
+    let listUrl = appConfig.webSite + '/show/' + id + '--------' + args.page + '---.html'
+    let ocrApi = 'https://api.nn.ci/ocr/b64/json'
+    let url = `${appConfig.webSite}/search/-------------.html`
+    let validate = `${appConfig.webSite}/index.php/verify/index.html?`
+    let checkUrl = `${appConfig.webSite}/index.php/ajax/verify_check?type=show&verify=`
     let backData = new RepVideoList()
     try {
-        let pro = await req(listUrl, { headers: appConfig.headers })
-        backData.error = pro.error
-        let proData = pro.data
-        if (proData) {
-            let document = parse(proData)
-            let allVideo = document.querySelectorAll('ul.ewave-vodlist li')
-            let videos = []
-            for (let index = 0; index < allVideo.length; index++) {
-                const element = allVideo[index]
-                let vodUrl = element.querySelector('a.thumb-link')?.attributes['href'] ?? ''
-                let vodPic = element.querySelector('div.ewave-vodlist__thumb')?.attributes['data-original'] ?? ''
-                let vodName = element.querySelector('div.ewave-vodlist__thumb')?.attributes['title'] ?? ''
-                let vodDiJiJi = element.querySelector('.pic-text')?.textContent ?? ''
-                let score = element.querySelector('.pic-tag')?.textContent ?? ''
+        function arrayBufferToBase64(arrayBuffer) {
+            let uint8Array = new Uint8Array(arrayBuffer)
+            let wordArray = Crypto.lib.WordArray.create(uint8Array)
+            let base64String = Crypto.enc.Base64.stringify(wordArray)
 
-                vodUrl = combineUrl(vodUrl)
+            return base64String
+        }
+        function sleep(ms) {
+            return new Promise((resolve) => setTimeout(resolve, ms))
+        }
+        // get cookie
+        let cookieRequest = await req(url, {
+            method: 'POST',
+            headers: {
+                'User-Agent': appConfig.headers['User-Agent'],
+                'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            data: `wd=${encodeURIComponent(args.searchWord)}`,
+        })
+        let cookie = cookieRequest.headers['set-cookie'][0]
+        // get img
+        let imgRes = await req(validate, {
+            headers: {
+                'User-Agent': appConfig.headers['User-Agent'],
+                Cookie: cookie,
+            },
+            responseType: 'arraybuffer',
+        })
+        let b64 = arrayBufferToBase64(imgRes.data)
+        // ocr
+        let ocrRes = await req(ocrApi, {
+            method: 'POST',
+            headers: appConfig.headers,
+            data: b64,
+        })
+        let vd = JSON.parse(ocrRes.data).result
+        // check
+        let checkRes = await req(checkUrl + vd, {
+            headers: {
+                'User-Agent': appConfig.headers['User-Agent'],
+                Cookie: cookie,
+            },
+        })
+        if (checkRes.data.msg === 'ok') {
+            // 等兩秒再搜，太快會觸發風控
+            await sleep(2000)
+            let pro = await req(listUrl, {
+                method: 'POST',
+                headers: {
+                    'User-Agent': appConfig.headers['User-Agent'],
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                    Cookie: cookie,
+                }
+            })
+            backData.error = pro.error
+            let proData = pro.data
+            if (proData) {
+                let document = parse(proData)
+                let allVideo = document.querySelectorAll('ul.ewave-vodlist li')
+                let videos = []
+                for (let index = 0; index < allVideo.length; index++) {
+                    const element = allVideo[index]
+                    let vodUrl = element.querySelector('a.thumb-link')?.attributes['href'] ?? ''
+                    let vodPic = element.querySelector('div.ewave-vodlist__thumb')?.attributes['data-original'] ?? ''
+                    let vodName = element.querySelector('div.ewave-vodlist__thumb')?.attributes['title'] ?? ''
+                    let vodDiJiJi = element.querySelector('.pic-text')?.textContent ?? ''
+                    let score = element.querySelector('.pic-tag')?.textContent ?? ''
 
-                let videoDet = new VideoDetail()
-                videoDet.vod_id = vodUrl
-                videoDet.vod_pic = vodPic
-                videoDet.vod_name = vodName.replace(/amp;/g, '')
-                videoDet.vod_remarks = vodDiJiJi
-                videoDet.vod_douban_score = score
-                videos.push(videoDet)
+                    vodUrl = combineUrl(vodUrl)
+
+                    let videoDet = new VideoDetail()
+                    videoDet.vod_id = vodUrl
+                    videoDet.vod_pic = vodPic
+                    videoDet.vod_name = vodName.replace(/amp;/g, '')
+                    videoDet.vod_remarks = vodDiJiJi
+                    videoDet.vod_douban_score = score
+                    videos.push(videoDet)
+                }
+                backData.data = videos
             }
-            backData.data = videos
         }
     } catch (error) {
         backData.error = '获取列表失败～' + error.message
