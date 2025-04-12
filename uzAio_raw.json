@@ -53,6 +53,13 @@
       "type": 100
     },
     {
+      "name": "[直]金牌影视",
+      "version": 3,
+      "webSite": "https://www.ghw9zwp5.com",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jpyy.js",
+      "type": 101
+    },
+    {
       "name": "[直]蛋蛋剧",
       "version": 2,
       "webSite": "https://www.dandanju.tv",
