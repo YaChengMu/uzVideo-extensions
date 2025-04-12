@@ -2,6 +2,8 @@
 //@version:3
 //@webSite:http://www.mucpan.cc
 //@remark:
+//是否弃用 1是  0否
+//@deprecated:1
 const appConfig = {
     _webSite: 'http://www.mucpan.cc',
     /**
