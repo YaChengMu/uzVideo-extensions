@@ -37,6 +37,13 @@
   ],
   "vod": [
     {
+      "name": "天翼资源",
+      "version": 1,
+      "webSite": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/911ysw.js",
+      "type": 101
+    },
+    {
       "name": "[解]通用官方采集",
       "version": 3,
       "remark": "官方采集扩展，需配合网盘解析工具使用。如采集服务不可用，请自行寻找更换采集地址。",
