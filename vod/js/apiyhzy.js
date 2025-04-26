@@ -1,5 +1,5 @@
 // ignore
-//@name:天翼资源
+//@name:樱花|4k
 //@version:1
 //@webSite:https://m3u8.apiyhzy.com/api.php/provide/vod
 //@remark:
