@@ -37,17 +37,17 @@
   ],
   "vod": [
     {
-      "name": "天翼资源",
+      "name": "樱花|4k",
       "version": 1,
-      "webSite": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/911ysw.js",
+      "webSite": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/apiyhzy.js",
       "type": 101
     },
     {
       "name": "天翼资源",
       "version": 1,
-      "webSite": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/apiyhzy.js",
+      "webSite": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/911ysw.js",
       "type": 101
     },
     {
