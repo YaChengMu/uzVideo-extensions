@@ -44,8 +44,8 @@ const parseComments = (filePath) => {
     codeID: extractValue(content, '@codeID:'),
     type: extractValue(content, '@type:'),
     instance: extractValue(content, '@instance:'),
-    isAV: extractValue(content, '@isAV:'),,
-    isLock: extractValue(content, '@isLock:'),,
+    isAV: extractValue(content, '@isAV:'),
+    isLock: extractValue(content, '@isLock:'),
     noHistory: extractValue(content, '@noHistory:'),
   };
 
