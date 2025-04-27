@@ -97,7 +97,9 @@ const main = async () => {
           ...(metadata.instance && { instance: metadata.instance }),
 
           api: metadata.api,
-          type: parseInt(metadata.type)
+          type: parseInt(metadata.type),
+          isLock: parseInt(metadata.isLock),
+          noHistory: parseInt(metadata.noHistory)
         }
         if (parseInt(metadata.isAV) === 1) {
           avResultList.push(item);
