@@ -4,8 +4,6 @@
     "version": 4,
     "webSite": "https://155api.com/api.php/provide/vod/",
     "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/155api.js",
-      "noHistory": true,
-      "isLock": true,
     "type": 101
   },
   {
