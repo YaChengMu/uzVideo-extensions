@@ -1,11 +1,11 @@
-// igonre
+// ignore
 //@name:[盘]特下饭
 //@version:1
 //@webSite:http://www.xn--ghqy10g1w0a.xyz/
 //是否弃用 1是  0否
 //@deprecated:1
 //@remark:
-// igonre
+// ignore
 const appConfig = {
     _webSite: 'http://www.xn--ghqy10g1w0a.xyz/',
     /**
