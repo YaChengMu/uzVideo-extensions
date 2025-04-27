@@ -1,7 +1,11 @@
+// ignore
 //@name:[盘]讴歌盘
 //@version:3
 //@webSite:https://woog.nxog.eu.org
+//是否弃用 1是  0否
+//@deprecated:1
 //@remark:
+// ignore
 const appConfig = {
     _webSite: 'https://woog.nxog.eu.org',
     /**
