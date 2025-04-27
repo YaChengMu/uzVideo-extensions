@@ -4,6 +4,8 @@
 //@webSite:https://041.bndmpsjx.com
 //@remark:
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     headers: {
