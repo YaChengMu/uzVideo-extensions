@@ -4,6 +4,8 @@
 //@webSite:https://hongkongdollvideo.com
 //@remark:需海外IP
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     _webSite: 'https://hongkongdollvideo.com',

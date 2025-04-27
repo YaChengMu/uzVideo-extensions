@@ -4,6 +4,8 @@
 //@webSite:https://www.msnii.com/api/json.php
 //@remark:
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 
 import {} from '../uzVideo.js'
 import {} from '../uzUtils.js'

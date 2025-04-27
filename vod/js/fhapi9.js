@@ -4,6 +4,8 @@
 //@webSite:http://fhapi9.com/api.php/provide/vod/
 //@remark:
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     headers: {

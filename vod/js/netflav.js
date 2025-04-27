@@ -5,6 +5,8 @@
 //@type:100
 //@instance:netflav20240905
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 
 class netflavClass extends WebApiBase {
     constructor() {

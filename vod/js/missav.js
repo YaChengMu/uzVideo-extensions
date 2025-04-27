@@ -6,6 +6,8 @@
 //@type:100
 //@instance:missav20240627
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 
 import { } from '../../core/uzVideo.js'
 import { } from '../../core/uzHome.js'

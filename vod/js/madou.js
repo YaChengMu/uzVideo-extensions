@@ -4,6 +4,8 @@
 //@webSite:https://madou.club
 //@remark:需海外IP
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     _webSite: 'https://madou.club',

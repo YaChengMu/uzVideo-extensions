@@ -4,6 +4,8 @@
 //@webSite:https://api.ddapi.cc/api.php/provide/vod/
 //@remark:
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     headers: {

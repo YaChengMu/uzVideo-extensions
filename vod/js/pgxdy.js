@@ -5,6 +5,8 @@
 //@remark:
 //@isAV:1
 //@type:101
+//@noHistory:1
+//@isLock:1
 
 // 不支持导入，这里只是本地开发用于代码提示
 // 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot

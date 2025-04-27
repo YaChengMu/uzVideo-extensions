@@ -4,6 +4,8 @@
 //@webSite:https://www.gdlsp.com/api/json.php
 //@remark:
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     headers: {

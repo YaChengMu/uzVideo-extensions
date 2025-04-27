@@ -4,6 +4,8 @@
 //@webSite:https://www.jingpinx.com/api.php/provide/vod/
 //@remark:需海外IP
 //@isAV:1
+//@noHistory:1
+//@isLock:1
 // ignore
 const appConfig = {
     headers: {
