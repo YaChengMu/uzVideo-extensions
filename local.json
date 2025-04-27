@@ -160,14 +160,6 @@
     "type": 101
   },
   {
-    "name": "[盘]云盘资源网",
-    "version": 1,
-    "webSite": "https://res.yunpan.win",
-    "instance": "resYunPan20241120",
-    "api": "vod/js/resyunpan.js",
-    "type": 100
-  },
-  {
     "name": "[嗅]eacg2",
     "version": 1,
     "webSite": "https://eacg1.com",
