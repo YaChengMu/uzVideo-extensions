@@ -5,7 +5,9 @@
     "remark": "官方采集扩展，需配合网盘解析工具使用。如采集服务不可用，请自行寻找更换采集地址。",
     "webSite": "http://zy.xiaomaomi.cc/api.php/provide/vod/",
     "api": "vod/js/cms.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]韩剧看看",
@@ -13,21 +15,27 @@
     "webSite": "https://www.hanjukankan.com",
     "instance": "hjkk20240624",
     "api": "vod/js/hjkk.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]金牌影视",
     "version": 3,
     "webSite": "https://www.ghw9zwp5.com",
     "api": "vod/js/jpyy.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]蛋蛋剧",
     "version": 3,
     "webSite": "https://www.dandanju.tv",
     "api": "vod/js/dandanju.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]瓜子web",
@@ -35,7 +43,9 @@
     "webSite": "https://api.zaqohu.com",
     "instance": "gzys20240822",
     "api": "vod/js/gzys.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]瓜子 app",
@@ -45,7 +55,9 @@
     "codeID": "ra5Z3wtXKshzSMK2",
     "instance": "gzapp20241001",
     "api": "vod/js/gzapp.txt",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]烧火",
@@ -53,7 +65,9 @@
     "webSite": "https://saohuo.tv",
     "instance": "saohuo20240623",
     "api": "vod/js/saohuo.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]欧乐影视",
@@ -62,7 +76,9 @@
     "webSite": "https://www.olevod.tv",
     "instance": "olevod20240620",
     "api": "vod/js/olevod.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]在线之家",
@@ -70,7 +86,9 @@
     "webSite": "https://www.zxzja.com",
     "instance": "zxzj20240620",
     "api": "vod/js/zxzj.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]囧次元",
@@ -80,14 +98,18 @@
     "webSite": "https://jocy.app",
     "codeID": "cm7OBqdp0KChaJ7bg2OhuAyTgt8ufeyJ",
     "api": "vod/js/jocy.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]两个bt",
     "version": 2,
     "webSite": "https://www.bttwoo.com",
     "api": "vod/js/bttwo.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[直]4k-av",
@@ -95,84 +117,108 @@
     "webSite": "https://4k-av.com",
     "instance": "www4kav20240705",
     "api": "vod/js/4kav.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]闪电优汐",
     "version": 1,
     "webSite": "http://1.95.79.193/",
     "api": "vod/js/shandian.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]虎斑盘",
     "version": 1,
     "webSite": "http://103.45.162.207:20720",
     "api": "vod/js/huban.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]至臻盘",
     "version": 3,
     "webSite": "https://mihdr.top",
     "api": "vod/js/zhizhen.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]玩偶哥哥",
     "version": 3,
     "webSite": "http://wogg.xxooo.cf",
     "api": "vod/js/wobg.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]木偶",
     "version": 2,
     "webSite": "https://mo.91muou.icu",
     "api": "vod/js/mogg.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]多多盘",
     "version": 3,
     "webSite": "https://tv.yydsys.top",
     "api": "vod/js/duoduo.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[盘]南风短剧",
     "version": 1,
     "webSite": "https://www.nanf.cc",
     "api": "vod/js/nanfdj.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[嗅]eacg2",
     "version": 1,
     "webSite": "https://eacg1.com",
     "api": "vod/js/eacg2.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[嗅]eacg",
     "version": 1,
     "webSite": "https://eacg1.com",
     "api": "vod/js/eacg.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[嗅]clicli",
     "version": 1,
     "webSite": "https://www.clicli.pro",
     "api": "vod/js/clicli.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "[嗅]aggl",
     "version": 1,
     "webSite": "https://anime.girigirilove.com",
     "api": "vod/js/aggl.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "api": "https://cj.rycjapi.com/api.php/provide/vod",
@@ -205,7 +251,9 @@
     "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
     "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
     "api": "panTools/js/panTools2.js",
-    "type": 300
+    "type": 300,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "豆瓣推荐",
@@ -213,13 +261,17 @@
     "remark": "iOS14 以上版本可用",
     "codeID": "N7WRmLmOdB8FSh4M",
     "api": "recommend/js/douban.txt",
-    "type": 200
+    "type": 200,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "弹幕扩展",
     "version": 1,
     "api": "danMu/js/danMu.js",
-    "type": 400
+    "type": 400,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "弹幕扩展",
@@ -227,7 +279,9 @@
     "remark": "搜不到就算了，不要那么执着",
     "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
     "api": "danMu/js/danMu2.txt",
-    "type": 400
+    "type": 400,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "📺电视直播",
@@ -252,14 +306,18 @@
     "version": 4,
     "webSite": "https://155api.com/api.php/provide/vod/",
     "api": "vod/js/155api.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞91jav",
     "version": 3,
     "webSite": "https://041.bndmpsjx.com",
     "api": "vod/js/91jav.js",
-    "type": 101
+    "type": 101,
+    "isLock": 1,
+    "noHistory": 1
   },
   {
     "name": "🔞jable",
@@ -267,7 +325,9 @@
     "remark": "需海外IP",
     "webSite": "https://jable.tv",
     "api": "vod/js/jable.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞missav",
@@ -276,7 +336,9 @@
     "webSite": "https://missav.ai",
     "instance": "missav20240627",
     "api": "vod/js/missav.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞netflav",
@@ -284,28 +346,36 @@
     "webSite": "https://www.netflav.com",
     "instance": "netflav20240905",
     "api": "vod/js/netflav.js",
-    "type": 100
+    "type": 100,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞乐播资源",
     "version": 4,
     "webSite": "https://lbapi9.com/api.php/provide/vod/",
     "api": "vod/js/lbapi9.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞淫水机资源",
     "version": 5,
     "webSite": "https://www.xrbsp.com/api/json.php",
     "api": "vod/js/xrbsp.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞滴滴资源",
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
     "api": "vod/js/ddapi.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞玩偶姐姐",
@@ -313,21 +383,27 @@
     "remark": "需海外IP",
     "webSite": "https://hongkongdollvideo.com",
     "api": "vod/js/hkdoll.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞番号资源",
     "version": 4,
     "webSite": "http://fhapi9.com/api.php/provide/vod/",
     "api": "vod/js/fhapi9.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞白嫖资源",
     "version": 4,
     "webSite": "https://www.kxgav.com/api/json.php",
     "api": "vod/js/kxgav.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞精品资源",
@@ -335,28 +411,36 @@
     "remark": "需海外IP",
     "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
     "api": "vod/js/jingpinx.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞美少女资源",
     "version": 4,
     "webSite": "https://www.msnii.com/api/json.php",
     "api": "vod/js/msnii.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞香奶儿资源",
     "version": 4,
     "webSite": "https://www.gdlsp.com/api/json.php",
     "api": "vod/js/gdlsp.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞鸡坤资源",
     "version": 4,
     "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
     "api": "vod/js/jkunzyapi.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞麻豆",
@@ -364,13 +448,17 @@
     "remark": "需海外IP",
     "webSite": "https://madou.club",
     "api": "vod/js/madou.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   },
   {
     "name": "🔞黄AV资源",
     "version": 5,
     "webSite": "https://www.pgxdy.com/api/json.php",
     "api": "vod/js/pgxdy.js",
-    "type": 101
+    "type": 101,
+    "isLock": null,
+    "noHistory": null
   }
 ]
