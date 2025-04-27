@@ -95,6 +95,7 @@
     {
       "name": "[直]欧乐影视",
       "version": 2,
+      "remark": "需海外IP",
       "webSite": "https://www.olevod.tv",
       "instance": "olevod20240620",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/olevod.js",
