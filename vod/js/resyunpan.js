@@ -3,6 +3,8 @@
 //@version:1
 //@webSite:https://res.yunpan.win
 //@remark:
+//是否弃用 1是  0否
+//@deprecated:1
 //@type:100
 //@instance:resYunPan20241120
 import {} from '../../core/uzVideo.js'
