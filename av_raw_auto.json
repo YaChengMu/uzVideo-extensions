@@ -41,6 +41,7 @@
   {
     "name": "🔞netflav",
     "version": 3,
+    "remark": "需海外IP",
     "webSite": "https://www.netflav.com",
     "instance": "netflav20240905",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/netflav.js",
