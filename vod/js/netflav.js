@@ -1,7 +1,7 @@
 //@name:🔞netflav
 //@version:3
 //@webSite:https://www.netflav.com
-//@remark:
+//@remark:需海外IP
 //@type:100
 //@instance:netflav20240905
 //@isAV:1
