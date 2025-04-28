@@ -298,6 +298,7 @@
   {
     "name": "🔞netflav",
     "version": 3,
+    "remark": "需海外IP",
     "webSite": "https://www.netflav.com",
     "instance": "netflav20240905",
     "api": "vod/js/netflav.js",
