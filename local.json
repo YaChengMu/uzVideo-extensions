@@ -316,6 +316,15 @@
     "noHistory": "1"
   },
   {
+    "name": "🔞森林资源",
+    "version": 1,
+    "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
+    "api": "vod/js/slapibf.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
     "name": "🔞淫水机资源",
     "version": 5,
     "webSite": "https://www.xrbsp.com/api/json.php",
@@ -376,6 +385,15 @@
     "version": 4,
     "webSite": "https://www.msnii.com/api/json.php",
     "api": "vod/js/msnii.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "🔞色猫资源",
+    "version": 1,
+    "webSite": "https://api.maozyapi.com/inc/apijson_vod.php",
+    "api": "vod/js/maozyapi.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
