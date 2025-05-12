@@ -1,180 +1,199 @@
 [
   {
-    "name": "🔞155资源",
-    "version": 4,
-    "webSite": "https://155api.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/155api.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞91jav",
-    "version": 3,
-    "webSite": "https://041.bndmpsjx.com",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/91jav.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞jable",
-    "version": 3,
-    "remark": "需海外IP",
-    "webSite": "https://jable.tv",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jable.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞missav",
-    "version": 2,
-    "remark": "需海外IP",
-    "webSite": "https://missav.ai",
-    "instance": "missav20240627",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/missav.js",
-    "type": 100,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞netflav",
-    "version": 3,
-    "remark": "需海外IP",
-    "webSite": "https://www.netflav.com",
-    "instance": "netflav20240905",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/netflav.js",
-    "type": 100,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞乐播资源",
-    "version": 4,
-    "webSite": "https://lbapi9.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/lbapi9.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞森林资源",
-    "version": 1,
-    "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/slapibf.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞淫水机资源",
-    "version": 5,
-    "webSite": "https://www.xrbsp.com/api/json.php",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xrbsp.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞滴滴资源",
-    "version": 4,
-    "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ddapi.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞玩偶姐姐",
-    "version": 6,
-    "remark": "需海外IP",
-    "webSite": "https://hongkongdollvideo.com",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/hkdoll.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞番号资源",
-    "version": 4,
-    "webSite": "http://fhapi9.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/fhapi9.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞白嫖资源",
-    "version": 4,
-    "webSite": "https://www.kxgav.com/api/json.php",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/kxgav.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞精品资源",
-    "version": 4,
-    "remark": "需海外IP",
-    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jingpinx.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞美少女资源",
-    "version": 4,
-    "webSite": "https://www.msnii.com/api/json.php",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/msnii.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞色猫资源",
-    "version": 1,
-    "webSite": "https://api.maozyapi.com/inc/apijson_vod.php",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/maozyapi.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞香奶儿资源",
-    "version": 4,
-    "webSite": "https://www.gdlsp.com/api/json.php",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gdlsp.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞鸡坤资源",
-    "version": 4,
-    "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jkunzyapi.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "🔞麻豆",
+    "name": "「禁」 麻豆",
     "version": 2,
     "remark": "需海外IP",
     "webSite": "https://madou.club",
+    "order": "E",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/madou.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
   },
   {
-    "name": "🔞黄AV资源",
+    "name": "「禁」 滴滴资源",
+    "version": 4,
+    "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ddapi.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 番号资源",
+    "version": 4,
+    "webSite": "http://fhapi9.com/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/fhapi9.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 玩偶姐姐",
+    "version": 6,
+    "remark": "需海外IP",
+    "webSite": "https://hongkongdollvideo.com",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/hkdoll.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 精品资源",
+    "version": 4,
+    "remark": "需海外IP",
+    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jingpinx.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 鸡坤资源",
+    "version": 4,
+    "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jkunzyapi.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 白嫖资源",
+    "version": 4,
+    "webSite": "https://www.kxgav.com/api/json.php",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/kxgav.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 乐播资源",
+    "version": 4,
+    "webSite": "https://lbapi9.com/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/lbapi9.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 色猫资源",
+    "version": 1,
+    "webSite": "https://api.maozyapi.com/inc/apijson_vod.php",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/maozyapi.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 森林资源",
+    "version": 1,
+    "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/slapibf.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 155资源",
+    "version": 4,
+    "webSite": "https://155api.com/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/155api.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 91jav",
+    "version": 3,
+    "webSite": "https://041.bndmpsjx.com",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/91jav.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 香奶儿资源",
+    "version": 4,
+    "webSite": "https://www.gdlsp.com/api/json.php",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gdlsp.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 jable",
+    "version": 3,
+    "remark": "需海外IP",
+    "webSite": "https://jable.tv",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jable.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 美少女资源",
+    "version": 4,
+    "webSite": "https://www.msnii.com/api/json.php",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/msnii.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 黄AV资源",
     "version": 5,
     "webSite": "https://www.pgxdy.com/api/json.php",
+    "order": "E",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pgxdy.js",
     "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 淫水机资源",
+    "version": 5,
+    "webSite": "https://www.xrbsp.com/api/json.php",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xrbsp.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 missav",
+    "version": 2,
+    "remark": "需海外IP",
+    "webSite": "https://missav.ai",
+    "instance": "missav20240627",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/missav.js",
+    "type": 100,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "「禁」 netflav",
+    "version": 3,
+    "remark": "需海外IP",
+    "webSite": "https://www.netflav.com",
+    "instance": "netflav20240905",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/netflav.js",
+    "type": 100,
     "isLock": "1",
     "noHistory": "1"
   }
