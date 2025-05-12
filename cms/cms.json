@@ -11,7 +11,8 @@
 {
   "api": "https://cjhwba.com/api.php/provide/vod/",
   "name": "「采」华为吧",
-  "type": 0
+  "type": 0,
+  "remark": "需海外IP"
 },
 {
   "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
