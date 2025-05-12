@@ -88,14 +88,6 @@
     "type": 100
   },
   {
-    "name": "「盘」 六趣",
-    "version": 1,
-    "webSite": "https://wp.0v.fit",
-    "order": "B",
-    "api": "vod/js/liuqu.js",
-    "type": 101
-  },
-  {
     "name": "「盘」 木偶",
     "version": 2,
     "webSite": "https://666.666291.xyz",
@@ -347,14 +339,6 @@
     "type": 101
   },
   {
-    "name": "「嗅」 clicli",
-    "version": 1,
-    "webSite": "https://www.clicli.pro",
-    "order": "D",
-    "api": "vod/js/clicli.js",
-    "type": 101
-  },
-  {
     "name": "「嗅」 E-ACG2",
     "version": 1,
     "webSite": "https://eacg1.com",
@@ -373,7 +357,8 @@
   {
     "api": "https://cjhwba.com/api.php/provide/vod/",
     "name": "「采」华为吧",
-    "type": 0
+    "type": 0,
+    "remark": "需海外IP"
   },
   {
     "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
