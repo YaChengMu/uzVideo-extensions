@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞美少女资源
+//@name:「禁」 美少女资源
 //@version:4
 //@webSite:https://www.msnii.com/api/json.php
 //@remark:
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 

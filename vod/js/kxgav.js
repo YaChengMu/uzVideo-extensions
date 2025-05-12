@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞白嫖资源
+//@name:「禁」 白嫖资源
 //@version:4
 //@webSite:https://www.kxgav.com/api/json.php
 //@remark:
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 // ignore

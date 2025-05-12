@@ -1,9 +1,9 @@
-//@name:[直]蛋蛋剧
-//@version:3
+// ignore
+//@name:「直」 蛋蛋剧
+//@version:2
 //@webSite:https://www.dandanju.tv
 //@remark:
-
-// ignore
+//@order: C
 import { } from '../../core/uzVideo.js'
 import { } from '../../core/uzHome.js'
 import { } from '../../core/uz3lib.js'
@@ -14,7 +14,7 @@ import { } from '../../core/uzUtils.js'
 const appConfig = {
     _webSite: 'https://www.dandanju.tv',
     headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     },
     ignoreClassName: ['发布页面'],
 
@@ -39,7 +39,7 @@ const appConfig = {
     },
     set uzTag(value) {
         this._uzTag = value
-    }
+    },
 }
 
 /**

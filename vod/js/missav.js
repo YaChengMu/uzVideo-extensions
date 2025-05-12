@@ -1,11 +1,12 @@
 // ignore
-//@name:🔞missav
+//@name:「禁」 missav
 //@version:2
 //@webSite:https://missav.ai
 //@remark:需海外IP
 //@type:100
 //@instance:missav20240627
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 

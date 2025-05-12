@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞滴滴资源
+//@name:「禁」 滴滴资源
 //@version:4
 //@webSite:https://api.ddapi.cc/api.php/provide/vod/
 //@remark:
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 // ignore

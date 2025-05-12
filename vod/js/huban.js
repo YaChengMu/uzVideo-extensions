@@ -1,7 +1,10 @@
-//@name:[盘]虎斑盘
+// ignore
+//@name:「盘」 虎斑
 //@version:1
 //@webSite:http://103.45.162.207:20720
 //@remark:
+//@order: B
+// ignore
 const appConfig = {
     _webSite: 'http://103.45.162.207:20720',
     /**

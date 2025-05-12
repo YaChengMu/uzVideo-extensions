@@ -1,24 +1,14 @@
 // ignore
-
-//@name:@name:[直]金牌影视
-// 网站主页，只有视频源扩展需要
+//@name:「直」 金牌影视
 //@webSite:https://www.ghw9zwp5.com
-// 版本号纯数字
 //@version:3
-// 备注，没有的话就不填
 //@remark:
-// 加密 id，没有的话就不填
 //@codeID:
-// 使用的环境变量，没有的话就不填
 //@env:
-// 是否是AV 1是  0否
 //@isAV:0
-//是否弃用 1是  0否
+//@order: C
 //@deprecated:0
-
 // ignore
-
-
 
 // ignore
 // 不支持导入，这里只是本地开发用于代码提示

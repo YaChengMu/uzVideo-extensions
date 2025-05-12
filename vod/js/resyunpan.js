@@ -1,12 +1,12 @@
 // ignore
-//@name:[盘]云盘资源网
+//@name:「盘」 云盘资源网
 //@version:1
 //@webSite:https://res.yunpan.win
 //@remark:
-//是否弃用 1是  0否
-//@deprecated:1
 //@type:100
 //@instance:resYunPan20241120
+//@order: B
+//@deprecated:1
 import {} from '../../core/uzVideo.js'
 import {} from '../../core/uzHome.js'
 import {} from '../../core/uz3lib.js'

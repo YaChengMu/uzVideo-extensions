@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞jable
+//@name:「禁」 jable
 //@version:3
 //@webSite:https://jable.tv
 //@remark:需海外IP
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 // ignore

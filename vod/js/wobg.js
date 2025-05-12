@@ -1,7 +1,8 @@
-//@name:[盘]玩偶哥哥
+//@name:「盘」 玩偶
 //@version:3
 //@webSite:http://wogg.xxooo.cf
 //@remark:
+//@order: B
 const appConfig = {
     _webSite: 'http://wogg.xxooo.cf',
     /**
@@ -69,6 +70,11 @@ async function getClassList(args) {
         {
             type_id: '5',
             type_name: '玩偶音乐',
+            hasSubclass: false,
+        },
+        {
+            type_id: '46',
+            type_name: '玩偶纪录',
             hasSubclass: false,
         },
     ]

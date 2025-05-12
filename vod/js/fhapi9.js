@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞番号资源
+//@name:「禁」 番号资源
 //@version:4
 //@webSite:http://fhapi9.com/api.php/provide/vod/
 //@remark:
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 // ignore

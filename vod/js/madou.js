@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞麻豆
+//@name:「禁」 麻豆
 //@version:2
 //@webSite:https://madou.club
 //@remark:需海外IP
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 // ignore

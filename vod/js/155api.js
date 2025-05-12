@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞155资源
+//@name:「禁」 155资源
 //@version:4
 //@webSite:https://155api.com/api.php/provide/vod/
 //@remark:
 //@isAV:1
+//@order: E
 //@noHistory:1
 //@isLock:1
 // ignore

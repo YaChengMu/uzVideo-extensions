@@ -1,9 +1,10 @@
 // ignore
-//@name:🔞黄AV资源
+//@name:「禁」 黄AV资源
 //@version:5
 //@webSite:https://www.pgxdy.com/api/json.php
 //@remark:
 //@isAV:1
+//@order: E
 //@type:101
 //@noHistory:1
 //@isLock:1
