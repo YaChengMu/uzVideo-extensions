@@ -2,9 +2,10 @@
   "danMu": [
     {
       "name": "弹幕扩展",
-      "version": 10,
+      "version": 11,
       "remark": "搜不到就算了，不要那么执着",
-      "codeID": "HyplMQ00pLZipW1jy1e9qTsjZbznKjq2",
+      "env": "弹幕解析地址##内置 4 条线路。格式 地址1;地址2",
+      "codeID": "4Y6DDMATfbw0Rg0Y2AOGpfmpU2cgspFf",
       "order": "A01",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
       "type": 400
@@ -20,7 +21,7 @@
   "panTools": [
     {
       "name": "夸克|123|189|UC|解析 网盘解析工具",
-      "version": 20,
+      "version": 21,
       "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
       "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools2.js",
@@ -30,9 +31,9 @@
   "recommend": [
     {
       "name": "豆瓣推荐",
-      "version": 3,
+      "version": 4,
       "remark": "iOS14 以上版本可用",
-      "codeID": "N7WRmLmOdB8FSh4M",
+      "codeID": "hZC5h9Id3nP6mwaolSXqNemBLQCMFqhw",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/recommend/js/douban.txt",
       "type": 200
     }
