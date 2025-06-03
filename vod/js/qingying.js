@@ -3,6 +3,7 @@
 //@webSite:https://revohd.com
 //@remark:
 //@order: B
+//@deprecated:1
 const appConfig = {
     _webSite: 'https://revohd.com',
     /**
