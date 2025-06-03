@@ -4,6 +4,7 @@
 //@webSite:http://cj.jiexi.news
 //@remark:
 //@order: B
+//@deprecated:1
 // ignore
 const appConfig = {
     _webSite: 'http://cj.jiexi.news',
