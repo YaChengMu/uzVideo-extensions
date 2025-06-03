@@ -77,14 +77,6 @@
     "type": 101
   },
   {
-    "name": "「盘」 清影",
-    "version": 1,
-    "webSite": "https://revohd.com",
-    "order": "B",
-    "api": "vod/js/qingying.js",
-    "type": 101
-  },
-  {
     "name": "「盘」 闪电",
     "version": 1,
     "webSite": "http://1.95.79.193/",
