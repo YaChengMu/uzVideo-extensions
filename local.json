@@ -37,14 +37,6 @@
     "type": 101
   },
   {
-    "name": "「盘」 百家",
-    "version": 1,
-    "webSite": "http://cj.jiexi.news",
-    "order": "B",
-    "api": "vod/js/baijia.js",
-    "type": 101
-  },
-  {
     "name": "「盘」 多多",
     "version": 3,
     "webSite": "https://tv.yydsys.top",
