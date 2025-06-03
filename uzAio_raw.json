@@ -188,14 +188,6 @@
       "type": 101
     },
     {
-      "name": "「盘」 南风短剧",
-      "version": 1,
-      "webSite": "https://www.nanf.cc",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/nanfdj.js",
-      "type": 101
-    },
-    {
       "name": "「盘」 PanSearch",
       "version": 1,
       "remark": "来自proversion2024，仅搜索",
