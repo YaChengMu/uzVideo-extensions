@@ -5,6 +5,7 @@
 //@remark:
 //@deprecated:1
 //@order: B
+//@deprecated:1
 // ignore
 const appConfig = {
     _webSite: 'http://cj.jiexi.news',

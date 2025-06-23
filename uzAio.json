@@ -40,25 +40,6 @@
   ],
   "vod": [
     {
-      "name": "「解」 虾米",
-      "version": 3,
-      "remark": "通用官采解析1，需配合网盘解析工具使用。每次消耗所有解析次数！",
-      "webSite": "https://zy.hls.one/api.php/provide/vod",
-      "order": "A",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cms.js",
-      "type": 101
-    },
-    {
-      "name": "「解」 虾米",
-      "version": 1,
-      "remark": "通用官采解析2，需配合网盘解析工具使用。在环境变量配置 采集解析地址。",
-      "env": "采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-      "webSite": "https://zy.hls.one/api.php/provide/vod",
-      "order": "A",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cms2.js",
-      "type": 101
-    },
-    {
       "name": "「解」 小猫咪",
       "version": 1,
       "remark": "通用官采解析2，需配合网盘解析工具使用。在环境变量配置 采集解析地址。",
@@ -74,14 +55,6 @@
       "webSite": "https://vip.omii.top",
       "order": "B",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/aomipan.js",
-      "type": 101
-    },
-    {
-      "name": "「盘」 百家",
-      "version": 1,
-      "webSite": "http://cj.jiexi.news",
-      "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/baijia.js",
       "type": 101
     },
     {
@@ -141,14 +114,6 @@
       "webSite": "https://woog.nxog.eu.org",
       "order": "B",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ouge.js",
-      "type": 101
-    },
-    {
-      "name": "「盘」 清影",
-      "version": 1,
-      "webSite": "https://revohd.com",
-      "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/qingying.js",
       "type": 101
     },
     {
@@ -220,14 +185,6 @@
       "webSite": "http://149.88.87.18:6688",
       "order": "B",
       "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dawanou.js",
-      "type": 101
-    },
-    {
-      "name": "「盘」 南风短剧",
-      "version": 1,
-      "webSite": "https://www.nanf.cc",
-      "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/nanfdj.js",
       "type": 101
     },
     {
@@ -418,6 +375,14 @@
       "api": "https://json.heimuer.xyz/api.php/provide/vod/",
       "name": "「采」黑木耳",
       "type": 0
+    },
+    {
+      "name": "自行搭建的 cms",
+      "version": 1,
+      "remark": "地址输入自己搭建的 cms 采集地址，默认使用如意采集占位",
+      "webSite": "https://cj.rycjapi.com/api.php/provide/vod",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cmsUser.js",
+      "type": 101
     }
   ],
   "live": [
