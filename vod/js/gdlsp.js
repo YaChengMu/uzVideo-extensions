@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 香奶儿资源
+//@name:[禁] 香奶儿资源
 //@version:4
 //@webSite:https://www.gdlsp.com/api/json.php
 //@remark:

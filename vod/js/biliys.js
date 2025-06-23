@@ -1,8 +1,8 @@
 // ignore
-//@name:「直」 修罗影视
-//@version:1
-//@webSite:https://www.xlys01.com
-//@remark:需海外IP
+//@name:[直] 修罗影视
+//@version:2
+//@webSite:https://xl01.com.de
+//@remark:
 //@order: C
 // ignore
 const appConfig = {

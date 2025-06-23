@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 番号资源
+//@name:[禁] 番号资源
 //@version:4
 //@webSite:http://fhapi9.com/api.php/provide/vod/
 //@remark:

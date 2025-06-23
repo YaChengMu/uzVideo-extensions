@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 色猫资源
+//@name:[禁] 色猫资源
 //@version:1
 //@webSite:https://api.maozyapi.com/inc/apijson_vod.php
 //@remark:

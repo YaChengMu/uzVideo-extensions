@@ -1,8 +1,9 @@
 // ignore
-//@name:「盘」 百家
+//@name:[盘] 百家
 //@version:1
 //@webSite:http://cj.jiexi.news
 //@remark:
+//@deprecated:1
 //@order: B
 // ignore
 const appConfig = {

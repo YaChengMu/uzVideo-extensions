@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 黄AV资源
+//@name:[禁] 黄AV资源
 //@version:5
 //@webSite:https://www.pgxdy.com/api/json.php
 //@remark:

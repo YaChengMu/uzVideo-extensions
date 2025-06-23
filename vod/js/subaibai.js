@@ -1,12 +1,11 @@
 // ignore
-//@name:「直」 素白白
-//@version:2
-//@webSite:https://www.subaibaiys.com
+//@name:[直] 素白白
+//@version:3
+//@webSite:https://www.subaibai.com
 //@remark:
 //@type:100
 //@instance:sbb20240624
 //@order: C
-//@deprecated:1
 import {} from '../../core/uzVideo.js'
 import {} from '../../core/uzHome.js'
 import {} from '../../core/uz3lib.js'

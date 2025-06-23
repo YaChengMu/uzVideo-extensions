@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 鸡坤资源
+//@name:[禁] 鸡坤资源
 //@version:4
 //@webSite:https://jkunzyapi.com/api.php/provide/vod/
 //@remark:

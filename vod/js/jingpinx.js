@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 精品资源
+//@name:[禁] 精品资源
 //@version:4
 //@webSite:https://www.jingpinx.com/api.php/provide/vod/
 //@remark:需海外IP

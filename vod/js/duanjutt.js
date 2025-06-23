@@ -1,12 +1,12 @@
 // ignore
-//@name:「直」 短剧天堂
+//@name:[直] 短剧天堂
 //@version:2
 //@webSite:https://duanjutt.tv
 //@remark:
+//@deprecated:1
 //@type:100
 //@instance:duanjutt20240922
 //@order: C
-//@deprecated:1
 
 import {} from '../../core/uzVideo.js'
 import {} from '../../core/uzHome.js'

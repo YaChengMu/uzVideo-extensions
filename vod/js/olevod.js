@@ -1,7 +1,7 @@
 // ignore
-//@name:「直」 欧乐影视
-//@version:2
-//@webSite:https://www.olevod.tv
+//@name:[直] 欧乐影视
+//@version:3
+//@webSite:https://www.olehdtv.com
 //@remark:需海外IP
 //@type:100
 //@instance:olevod20240620

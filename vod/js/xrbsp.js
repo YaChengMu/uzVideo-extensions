@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 淫水机资源
+//@name:[禁] 淫水机资源
 //@version:5
 //@webSite:https://www.xrbsp.com/api/json.php
 //@remark:

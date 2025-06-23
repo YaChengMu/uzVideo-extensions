@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 乐播资源
+//@name:[禁] 乐播资源
 //@version:4
 //@webSite:https://lbapi9.com/api.php/provide/vod/
 //@remark:

@@ -1,5 +1,5 @@
-//@name:「禁」 netflav
-//@version:3
+//@name:[禁] netflav
+//@version:2
 //@webSite:https://www.netflav.com
 //@remark:需海外IP
 //@type:100

@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 白嫖资源
+//@name:[禁] 白嫖资源
 //@version:4
 //@webSite:https://www.kxgav.com/api/json.php
 //@remark:

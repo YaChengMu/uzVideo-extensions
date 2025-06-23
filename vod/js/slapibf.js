@@ -1,5 +1,5 @@
 // ignore
-//@name:「禁」 森林资源
+//@name:[禁] 森林资源
 //@version:1
 //@webSite:https://beiyong.slapibf.com/api.php/provide/vod/
 //@remark:

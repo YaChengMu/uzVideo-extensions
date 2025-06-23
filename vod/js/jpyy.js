@@ -1,5 +1,5 @@
 // ignore
-//@name:「直」 金牌影视
+//@name:[直] 金牌影视
 //@webSite:https://www.ghw9zwp5.com
 //@version:3
 //@remark:
