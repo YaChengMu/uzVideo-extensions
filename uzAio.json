@@ -7,32 +7,32 @@
       "env": "弹幕解析地址##内置 4 条线路。格式 地址1;地址2",
       "codeID": "4Y6DDMATfbw0Rg0Y2AOGpfmpU2cgspFf",
       "order": "A01",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
       "type": 400
     },
     {
       "name": "弹幕扩展",
       "version": 1,
       "order": "A02",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
       "type": 400
     }
   ],
   "panTools": [
     {
       "name": "夸克|123|189|UC|解析 网盘解析工具",
-      "version": 21,
+      "version": 22,
       "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
       "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools2.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools2.js",
       "type": 300
     },
     {
       "name": "夸克|123|189|UC|解析 网盘解析工具",
-      "version": 1,
+      "version": 2,
       "remark": "iOS15 以下版本使用",
       "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools_iOS14.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools_iOS14.js",
       "type": 300
     }
   ],
@@ -42,17 +42,56 @@
       "version": 4,
       "remark": "iOS14 以上版本可用",
       "codeID": "hZC5h9Id3nP6mwaolSXqNemBLQCMFqhw",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/recommend/js/douban.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/recommend/js/douban.txt",
       "type": 200
     }
   ],
   "vod": [
     {
+      "name": "[解] 小猫咪",
+      "version": 5,
+      "remark": "通用官采解析1，需配合网盘解析工具使用。每次消耗所有解析次数！",
+      "webSite": "https://zy.xmm.hk/api.php/provide/vod",
+      "order": "A",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cms.js",
+      "type": 101
+    },
+    {
+      "name": "[解] 小猫咪",
+      "version": 3,
+      "remark": "通用官采解析2，需配合网盘解析工具使用。在环境变量配置 采集解析地址。",
+      "env": "采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
+      "webSite": "https://zy.xmm.hk/api.php/provide/vod",
+      "order": "A",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cms2.js",
+      "type": 101
+    },
+    {
+      "name": "[综] HDmoli",
+      "version": 2,
+      "remark": "🍃豆儿出品，不属精品！支持在线播放和网盘",
+      "webSite": "https://www.hdmoli.pro/",
+      "codeID": "OAxUOePWsN3I7NQfNIO9Il1I1cgolbSa",
+      "order": "A",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Zong_HDmoli.txt",
+      "type": 101
+    },
+    {
+      "name": "[盘] 校长",
+      "version": 1,
+      "remark": "🍃豆儿出品，不属精品！",
+      "webSite": "https://xzys.fun",
+      "codeID": "7T4PFJobJZegoH1hLUyEL1HOGSoNuwR6",
+      "order": "B",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Pan_xzys.txt",
+      "type": 101
+    },
+    {
       "name": "[盘] 奥秘",
       "version": 3,
       "webSite": "https://vip.omii.top",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/aomipan.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/aomipan.js",
       "type": 101
     },
     {
@@ -60,7 +99,7 @@
       "version": 1,
       "webSite": "http://149.88.87.18:6688",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dawanou.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dawanou.js",
       "type": 101
     },
     {
@@ -68,7 +107,7 @@
       "version": 3,
       "webSite": "https://tv.yydsys.top",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/duoduo.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/duoduo.js",
       "type": 101
     },
     {
@@ -76,7 +115,7 @@
       "version": 1,
       "webSite": "https://2xiaopan.fun",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/erxiao.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/erxiao.js",
       "type": 101
     },
     {
@@ -84,7 +123,7 @@
       "version": 1,
       "webSite": "http://103.45.162.207:20720",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/huban.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/huban.js",
       "type": 101
     },
     {
@@ -92,7 +131,7 @@
       "version": 3,
       "webSite": "http://feimaoai.site",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/labipan.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/labipan.js",
       "type": 101
     },
     {
@@ -103,7 +142,7 @@
       "codeID": "GgryhjYVgQMDUw4f",
       "instance": "leiJing20241126",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/leijing.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/leijing.txt",
       "type": 100
     },
     {
@@ -111,7 +150,15 @@
       "version": 2,
       "webSite": "https://666.666291.xyz",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mogg.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mogg.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 南风",
+      "version": 1,
+      "webSite": "https://www.nanf.cc",
+      "order": "B",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/nanfdj.js",
       "type": 101
     },
     {
@@ -119,7 +166,7 @@
       "version": 3,
       "webSite": "https://woog.nxog.eu.org",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ouge.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ouge.js",
       "type": 101
     },
     {
@@ -127,7 +174,7 @@
       "version": 1,
       "webSite": "http://1.95.79.193/",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/shandian.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/shandian.js",
       "type": 101
     },
     {
@@ -135,7 +182,7 @@
       "version": 3,
       "webSite": "http://wogg.xxooo.cf",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/wobg.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/wobg.js",
       "type": 101
     },
     {
@@ -143,15 +190,15 @@
       "version": 3,
       "webSite": "https://xiaomiai.site",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xiaomi.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xiaomi.js",
       "type": 101
     },
     {
       "name": "[盘] 至臻",
-      "version": 3,
-      "webSite": "https://mihdr.top",
+      "version": 4,
+      "webSite": "http://www.miqk.cc",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
       "type": 101
     },
     {
@@ -162,17 +209,17 @@
       "codeID": "LO5aQSJYBZLrRD1g",
       "instance": "funletu20241124",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/funletu.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/funletu.txt",
       "type": 100
     },
     {
       "name": "[盘] TG搜",
-      "version": 5,
+      "version": 6,
       "remark": "格式 频道名称1@频道id1&频道名称2@频道id2",
       "env": "TG搜代理地址##默认直接访问 https://t.me/s/ 有自己的代理服务填入即可，没有不用改动。",
-      "webSite": "123资源@zyfb123&夸克UC@ucquark&夸克电影@alyp_4K_Movies&夸克剧集@alyp_TV&夸克动漫@alyp_Animation&鱼哥资源@yggpan&CH资源@ChangAn2504",
+      "webSite": "123资源@zyfb123&天翼日更@tianyirigeng&天翼臻影@tyysypzypd&云巢@peccxinpd&夸克UC@ucquark&夸克电影@alyp_4K_Movies&夸克剧集@alyp_TV&夸克动漫@alyp_Animation",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tgs.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tgs.js",
       "type": 101
     },
     {
@@ -183,17 +230,17 @@
       "codeID": "DU9z425w42hk9B8l",
       "instance": "tianyiso20241129",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tianyiso.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tianyiso.txt",
       "type": 100
     },
     {
       "name": "[盘] TG纯搜",
-      "version": 4,
-      "remark": "免代理纯搜索无图片，格式 频道名称@频道id|搜索数量&频道名称@频道id，支持自定义每频道搜索数量，默认3个，支持5种网盘：天翼/夸克/UC/阿里/123",
+      "version": 5,
+      "remark": "🍃豆儿出品，不属精品！免代理纯搜索，格式 频道名称@频道id|搜索数量&频道名称@频道id，支持自定义每频道搜索数量，默认3个",
       "env": "TG搜API地址##https://tgsou.252035.xyz",
-      "webSite": "123资源@zyfb123|2&夸克UC@ucquark|5&夸克电影@alyp_4K_Movies&夸克剧集@alyp_TV&夸克动漫@alyp_Animation&鱼哥资源@yggpan&CH资源@ChangAn2504",
+      "webSite": "123资源@zyfb123&天翼日更@tianyirigeng&天翼臻影@tyysypzypd&云巢@peccxinpd&夸克UC@ucquark&夸克电影@alyp_4K_Movies&夸克剧集@alyp_TV&夸克动漫@alyp_Animation",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tgs_api.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tgs_api.js",
       "type": 101
     },
     {
@@ -204,7 +251,7 @@
       "codeID": "UM9WK6x3sPm3mbUgJB2dJNs59vTyNynm",
       "instance": "leiJing20241126",
       "order": "B",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pansearch.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pansearch.txt",
       "type": 101,
       "isLock": "false,",
       "noHistory": "false,"
@@ -214,7 +261,7 @@
       "version": 2,
       "webSite": "https://www.dandanju.tv",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dandanju.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dandanju.js",
       "type": 101
     },
     {
@@ -225,7 +272,7 @@
       "webSite": "https://jocy.app",
       "codeID": "cm7OBqdp0KChaJ7bg2OhuAyTgt8ufeyJ",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jocy.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jocy.js",
       "type": 101
     },
     {
@@ -234,7 +281,7 @@
       "webSite": "https://www.subaibai.com",
       "instance": "sbb20240624",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/subaibai.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/subaibai.js",
       "type": 100
     },
     {
@@ -242,7 +289,7 @@
       "version": 2,
       "webSite": "https://xl01.com.de",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/biliys.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/biliys.js",
       "type": 101
     },
     {
@@ -250,7 +297,7 @@
       "version": 2,
       "webSite": "https://www.bttwoo.com",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/bttwo.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/bttwo.js",
       "type": 101
     },
     {
@@ -258,7 +305,7 @@
       "version": 2,
       "webSite": "https://www.czzy77.com",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/changZhang20240614.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/changZhang20240614.js",
       "type": 101
     },
     {
@@ -267,7 +314,7 @@
       "webSite": "https://www.hanjukankan.com",
       "instance": "hjkk20240624",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/hjkk.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/hjkk.js",
       "type": 100
     },
     {
@@ -275,7 +322,7 @@
       "version": 3,
       "webSite": "https://www.ghw9zwp5.com",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jpyy.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jpyy.js",
       "type": 101
     },
     {
@@ -285,7 +332,7 @@
       "webSite": "https://www.olehdtv.com",
       "instance": "olevod20240620",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/olevod.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/olevod.js",
       "type": 100
     },
     {
@@ -294,7 +341,7 @@
       "webSite": "https://www.zxzjhd.com",
       "instance": "zxzj20240620",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
       "type": 100
     },
     {
@@ -303,7 +350,7 @@
       "webSite": "https://4k-av.com",
       "instance": "www4kav20240705",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/4kav.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/4kav.js",
       "type": 100
     },
     {
@@ -314,7 +361,7 @@
       "codeID": "ra5Z3wtXKshzSMK2",
       "instance": "gzapp20241001",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gzapp.txt",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gzapp.txt",
       "type": 100
     },
     {
@@ -323,7 +370,7 @@
       "webSite": "https://api.zaqohu.com",
       "instance": "gzys20240822",
       "order": "C",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gzys.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gzys.js",
       "type": 100
     },
     {
@@ -331,7 +378,7 @@
       "version": 1,
       "webSite": "https://www.lmm97.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_lmm.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_lmm.js",
       "type": 101
     },
     {
@@ -339,7 +386,7 @@
       "version": 1,
       "webSite": "https://www.bahaotv.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_bhys.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_bhys.js",
       "type": 101
     },
     {
@@ -347,7 +394,7 @@
       "version": 1,
       "webSite": "https://www.tt776b.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_fcdm.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_fcdm.js",
       "type": 101
     },
     {
@@ -355,7 +402,7 @@
       "version": 1,
       "webSite": "https://www.mxdm6.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_mxdm.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_mxdm.js",
       "type": 101
     },
     {
@@ -363,7 +410,7 @@
       "version": 1,
       "webSite": "https://www.ntdm9.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_ntdm.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_ntdm.js",
       "type": 101
     },
     {
@@ -371,7 +418,7 @@
       "version": 1,
       "webSite": "https://www.vdm5.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_yhdm.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_yhdm.js",
       "type": 101
     },
     {
@@ -379,7 +426,7 @@
       "version": 1,
       "webSite": "https://eacg1.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg.js",
       "type": 101
     },
     {
@@ -387,7 +434,16 @@
       "version": 1,
       "webSite": "http://www.mifun.tw",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mifun.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mifun.js",
+      "type": 101
+    },
+    {
+      "name": "[嗅] LIBVIO",
+      "version": 1,
+      "remark": "🍃豆儿出品，不属精品！",
+      "webSite": "https://libvio.mov/",
+      "order": "D",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_libvio.js",
       "type": 101
     },
     {
@@ -395,7 +451,7 @@
       "version": 1,
       "webSite": "https://eacg1.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg2.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/eacg2.js",
       "type": 101
     },
     {
@@ -403,7 +459,7 @@
       "version": 1,
       "webSite": "https://www.mutean.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_MuteFun.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_MuteFun.js",
       "type": 101
     },
     {
@@ -411,41 +467,41 @@
       "version": 1,
       "webSite": "https://anime.girigirilove.com",
       "order": "D",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/aggl.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/aggl.js",
       "type": 101
+    },
+    {
+      "api": "https://cjhwba.com/api.php/provide/vod/",
+      "name": "[采] 华为吧",
+      "type": 0,
+      "remark": "需海外IP"
+    },
+    {
+      "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
+      "name": "[采] 天翼|4K",
+      "type": 0
+    },
+    {
+      "api": "https://cj.rycjapi.com/api.php/provide/vod",
+      "name": "[采] 如意",
+      "type": 0
+    },
+    {
+      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
+      "name": "[采] 樱花|4K",
+      "type": 0
     },
     {
       "name": "[采] 自建CMS",
       "version": 1,
       "remark": "地址输入自己搭建的 cms 采集地址，默认使用如意采集占位",
       "webSite": "https://cj.rycjapi.com/api.php/provide/vod",
-      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cmsUser.js",
+      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cmsUser.js",
       "type": 101
     },
     {
-      "api": "https://cjhwba.com/api.php/provide/vod/",
-      "name": "「采」华为吧",
-      "type": 0,
-      "remark": "需海外IP"
-    },
-    {
-      "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
-      "name": "「采」天翼|4K",
-      "type": 0
-    },
-    {
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "「采」如意",
-      "type": 0
-    },
-    {
-      "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-      "name": "「采」樱花|4K",
-      "type": 0
-    },
-    {
       "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-      "name": "「采」黑木耳",
+      "name": "[采] 黑木耳",
       "type": 0
     }
   ],
