@@ -1,6 +1,6 @@
 [
   {
-    "name": "「禁」 麻豆",
+    "name": "[禁] 麻豆",
     "version": 2,
     "remark": "需海外IP",
     "webSite": "https://madou.club",
@@ -11,7 +11,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 滴滴资源",
+    "name": "[禁] 滴滴资源",
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
     "order": "E",
@@ -21,7 +21,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 番号资源",
+    "name": "[禁] 番号资源",
     "version": 4,
     "webSite": "http://fhapi9.com/api.php/provide/vod/",
     "order": "E",
@@ -31,8 +31,8 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 玩偶姐姐",
-    "version": 6,
+    "name": "[禁] 玩偶姐姐",
+    "version": 2,
     "remark": "需海外IP",
     "webSite": "https://hongkongdollvideo.com",
     "order": "E",
@@ -42,7 +42,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 精品资源",
+    "name": "[禁] 精品资源",
     "version": 4,
     "remark": "需海外IP",
     "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
@@ -53,7 +53,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 鸡坤资源",
+    "name": "[禁] 鸡坤资源",
     "version": 4,
     "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
     "order": "E",
@@ -63,7 +63,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 白嫖资源",
+    "name": "[禁] 白嫖资源",
     "version": 4,
     "webSite": "https://www.kxgav.com/api/json.php",
     "order": "E",
@@ -73,7 +73,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 乐播资源",
+    "name": "[禁] 乐播资源",
     "version": 4,
     "webSite": "https://lbapi9.com/api.php/provide/vod/",
     "order": "E",
@@ -83,7 +83,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 色猫资源",
+    "name": "[禁] 色猫资源",
     "version": 1,
     "webSite": "https://api.maozyapi.com/inc/apijson_vod.php",
     "order": "E",
@@ -93,7 +93,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 森林资源",
+    "name": "[禁] 森林资源",
     "version": 1,
     "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
     "order": "E",
@@ -103,7 +103,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 155资源",
+    "name": "[禁] 155资源",
     "version": 4,
     "webSite": "https://155api.com/api.php/provide/vod/",
     "order": "E",
@@ -113,7 +113,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 91jav",
+    "name": "[禁] 91jav",
     "version": 3,
     "webSite": "https://041.bndmpsjx.com",
     "order": "E",
@@ -123,7 +123,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 香奶儿资源",
+    "name": "[禁] 香奶儿资源",
     "version": 4,
     "webSite": "https://www.gdlsp.com/api/json.php",
     "order": "E",
@@ -133,7 +133,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 jable",
+    "name": "[禁] jable",
     "version": 3,
     "remark": "需海外IP",
     "webSite": "https://jable.tv",
@@ -144,7 +144,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 美少女资源",
+    "name": "[禁] 美少女资源",
     "version": 4,
     "webSite": "https://www.msnii.com/api/json.php",
     "order": "E",
@@ -154,7 +154,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 黄AV资源",
+    "name": "[禁] 黄AV资源",
     "version": 5,
     "webSite": "https://www.pgxdy.com/api/json.php",
     "order": "E",
@@ -164,7 +164,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 淫水机资源",
+    "name": "[禁] 淫水机资源",
     "version": 5,
     "webSite": "https://www.xrbsp.com/api/json.php",
     "order": "E",
@@ -174,7 +174,7 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 missav",
+    "name": "[禁] missav",
     "version": 2,
     "remark": "需海外IP",
     "webSite": "https://missav.ai",
@@ -186,8 +186,8 @@
     "noHistory": "1"
   },
   {
-    "name": "「禁」 netflav",
-    "version": 3,
+    "name": "[禁] netflav",
+    "version": 2,
     "remark": "需海外IP",
     "webSite": "https://www.netflav.com",
     "instance": "netflav20240905",
