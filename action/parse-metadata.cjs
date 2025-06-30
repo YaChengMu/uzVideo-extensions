@@ -183,7 +183,7 @@ const main = async () => {
 
   let sources = [...allInOneResult.vod, ...allInOneResult.panTools, ...allInOneResult.recommend, ...allInOneResult.danMu, ...allInOneResult.live, ...avResultList]
 
-  const githubProxy = 'https://github.moeyy.xyz/'
+  const githubProxy = 'https://gh-proxy.com/'
   const githubRawHost = 'https://raw.githubusercontent.com'
   sources.forEach((item) => {
     item.api = item.api.replaceAll(githubRawHost, `${githubProxy}${githubRawHost}`)
