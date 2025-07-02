@@ -58,11 +58,11 @@ async function getClassList(args) {
         const proData = pro.data
         if (proData) {
             const $ = cheerio.load(proData)
-            let allClass = $('.pb-5 .col-6.col-sm-4.col-lg-3')
+            let allClass = $('.pb-3 .tag')
             let list = []
             allClass.each((index, e) => {
-                const name = $(e).find('a').text()
-                const url = $(e).find('a').attr('href')
+                const name = $(e).text()
+                const url = $(e).attr('href')
                 const isIgnore = isIgnoreClassName(name)
                 if (isIgnore) return
                 if (url.length > 0 && name.length > 0) {
