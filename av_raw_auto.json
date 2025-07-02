@@ -1,16 +1,5 @@
 [
   {
-    "name": "[禁] 麻豆",
-    "version": 2,
-    "remark": "需海外IP",
-    "webSite": "https://madou.club",
-    "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/madou.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
     "name": "[禁] 滴滴资源",
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
