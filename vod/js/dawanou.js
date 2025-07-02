@@ -2,7 +2,7 @@
 //@name:[盘] 大玩
 //@version:1
 //@webSite:http://149.88.87.18:6688
-//@remark:
+//@remark:需海外IP
 //@order: B
 // ignore
 const appConfig = {
