@@ -49,6 +49,7 @@
   {
     "name": "[盘] 大玩",
     "version": 1,
+    "remark": "需海外IP",
     "webSite": "http://149.88.87.18:6688",
     "order": "B",
     "api": "vod/js/dawanou.js",
@@ -226,15 +227,6 @@
     "order": "C",
     "api": "vod/js/jocy.js",
     "type": 101
-  },
-  {
-    "name": "[直] 素白白",
-    "version": 3,
-    "webSite": "https://www.subaibai.com",
-    "instance": "sbb20240624",
-    "order": "C",
-    "api": "vod/js/subaibai.js",
-    "type": 100
   },
   {
     "name": "[直] 修罗影视",
@@ -425,8 +417,7 @@
   {
     "api": "https://cjhwba.com/api.php/provide/vod/",
     "name": "[采] 华为吧",
-    "type": 0,
-    "remark": "需海外IP"
+    "type": 0
   },
   {
     "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
