@@ -489,6 +489,15 @@
     "type": 400
   },
   {
+    "name": "可选线路弹幕扩展",
+    "version": 2,
+    "remark": "v1.6.60 及以上版本可用",
+    "env": "弹幕线路##格式 线路名称1@地址1;线路名称2@地址2",
+    "order": "A01",
+    "api": "danMu/js/danMu3.js",
+    "type": 400
+  },
+  {
     "name": "📺电视直播",
     "api": "https://tv.iill.top/m3u/Gather",
     "type": 10,
