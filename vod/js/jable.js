@@ -56,6 +56,7 @@ async function getClassList(args) {
         })
         appConfig.cookie = pro.headers['set-cookie']
         const proData = pro.data
+        checkVerify(webUrl, pro.data);
         // UZUtils.debugLog(proData)
         if (proData) {
             const $ = cheerio.load(proData)
@@ -93,6 +94,7 @@ async function getSubclassList(args) {
         let filter = []
         if (url.includes('categories')) {
             const pro = await req(url, { headers: headers })
+            checkVerify(url, pro.data);
             const $ = cheerio.load(pro.data)
             let list = []
             let cat = $('#list_categories_video_categories_list .container .row > div')
@@ -104,6 +106,7 @@ async function getSubclassList(args) {
             filter.push({ name: '類型', list: list })
         } else {
             const pro = await req(url, { headers: appConfig.headers })
+            checkVerify(url, pro.data);
             const $ = cheerio.load(pro.data)
             let list = []
             let sort = $('.sorting-nav li')
@@ -136,6 +139,7 @@ async function getSubclassVideoList(args) {
         }
 
         const pro = await req(url, { headers: headers })
+        checkVerify(url, pro.data);
         let proData = pro.data
         if (proData) {
             const $ = cheerio.load(proData)
@@ -173,6 +177,7 @@ async function getVideoList(args) {
         if (args.url === appConfig.webSite) {
             UZUtils.debugLog(args.url)
             const pro = await req(args.url, { headers: headers })
+            checkVerify(args.url, pro.data);
             const $ = cheerio.load(pro.data)
             const lastSection = $('#site-content .container section:last')
             const allvideos = lastSection.find('.row > div')
@@ -192,6 +197,7 @@ async function getVideoList(args) {
                 ? args.url + `?mode=async&function=get_block&block_id=list_videos_common_videos_list&sort_by=release_year&from=${args.page}&_=${Date.now()}`
                 : args.url + `?mode=async&function=get_block&block_id=list_videos_latest_videos_list&sort_by=post_date&from=${args.page}&_=${Date.now()}`
             const pro = await req(url, { headers: appConfig.headers })
+            checkVerify(url, pro.data);
             const $ = cheerio.load(pro.data)
             const allvideos = $('.container .row > div')
             allvideos.each((_, e) => {
@@ -224,6 +230,7 @@ async function getVideoDetail(args) {
         const pro = await req(webUrl, { headers: headers })
         backData.error = pro.error
         const proData = pro.data
+        checkVerify(webUrl, pro.data);
         if (proData) {
             const $ = cheerio.load(proData)
             let script = $('#site-content .container .col').eq(0).find('section').eq(0).find('script:last').text()
@@ -275,6 +282,7 @@ async function searchVideo(args) {
         let url = `${appConfig.webSite}/search/${args.searchWord}/?mode=async&function=get_block&block_id=list_videos_videos_list_search_result&q=${args.searchWord
             }&sort_by=&from=${args.page}&_=${Date.now()}`
         const pro = await req(url, { headers: headers })
+        checkVerify(url, pro.data);
         const $ = cheerio.load(pro.data)
         let videos = []
         const allvideos = $('#list_videos_videos_list_search_result .container .row > div')
@@ -293,3 +301,13 @@ async function searchVideo(args) {
     return JSON.stringify(backData)
 }
 
+/**
+     * 检查是否需要验证码
+     * @param {string} webUrl
+     * @param {any} data
+     **/
+async function checkVerify(webUrl, data) {
+    if (typeof data === "string" && data.includes("js=slider")) {
+        await goToVerify(webUrl);
+    }
+}
