@@ -1,46 +1,47 @@
 {
   "danMu": [
     {
+      "name": "可选线路弹幕扩展",
+      "version": 4,
+      "remark": "v1.6.60 及以上版本可用",
+      "env": "弹幕线路##格式 线路名称1@地址1;线路名称2@地址2",
+      "codeID": "OYWsHggmQPOmQsrgaJx3w9z5sfXrQ10o",
+      "order": "A01",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu4.txt",
+      "type": 400
+    },
+    {
       "name": "弹幕扩展",
       "version": 11,
       "remark": "搜不到就算了，不要那么执着",
       "env": "弹幕解析地址##内置 4 条线路。格式 地址1;地址2",
       "codeID": "4Y6DDMATfbw0Rg0Y2AOGpfmpU2cgspFf",
-      "order": "A01",
+      "order": "A02",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu2.txt",
       "type": 400
     },
     {
       "name": "弹幕扩展",
       "version": 1,
-      "order": "A02",
+      "order": "A03",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu.js",
-      "type": 400
-    },
-    {
-      "name": "可选线路弹幕扩展",
-      "version": 2,
-      "remark": "v1.6.60 及以上版本可用",
-      "env": "弹幕线路##格式 线路名称1@地址1;线路名称2@地址2",
-      "order": "A01",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/danMu/js/danMu3.js",
       "type": 400
     }
   ],
   "panTools": [
     {
-      "name": "夸克|123|189|UC|解析 网盘解析工具",
-      "version": 22,
+      "name": "夸克|UC|天翼|123|解析 网盘解析工具",
+      "version": 23,
       "remark": "iOS14 以上版本可用,App v1.6.54 及以上版本可用",
-      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools2.js",
+      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools3.js",
       "type": 300
     },
     {
-      "name": "夸克|123|189|UC|解析 网盘解析工具",
+      "name": "夸克|UC|天翼|123|解析 网盘解析工具",
       "version": 2,
       "remark": "iOS15 以下版本使用",
-      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&阿里Token##用于播放阿里网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
+      "env": "UCCookie##用于播放UC网盘视频&&UC_UT##播放视频自动获取，不可用时点击删除重新获取 cookie ，再重启app&&夸克Cookie##用于播放Quark网盘视频&&转存文件夹名称##在各网盘转存文件时使用的文件夹名称&&123网盘账号##用于播放123网盘视频&&123网盘密码##用于播放123网盘视频&&天翼网盘账号##用于播放天翼网盘视频&&天翼网盘密码##用于播放天翼网盘视频&&采集解析地址##内置两个，失效不要反馈。格式：名称1@地址1;名称2@地址2",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/panTools/js/panTools_iOS14.js",
       "type": 300
     }
@@ -76,13 +77,43 @@
       "type": 101
     },
     {
-      "name": "[综] HDmoli",
+      "name": "[盘] 二小",
+      "version": 1,
+      "webSite": "https://2xiaopan.fun",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/erxiao.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 南风",
+      "version": 1,
+      "webSite": "https://www.nanf.cc",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/nanfdj.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 多多",
+      "version": 3,
+      "webSite": "https://tv.yydsys.top",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/duoduo.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 小米",
+      "version": 3,
+      "webSite": "https://xiaomiai.site",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xiaomi.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 木偶",
       "version": 2,
-      "remark": "🍃豆儿出品，不属精品！支持在线播放和网盘",
-      "webSite": "https://www.hdmoli.pro/",
-      "codeID": "OAxUOePWsN3I7NQfNIO9Il1I1cgolbSa",
-      "order": "A",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Zong_HDmoli.txt",
+      "webSite": "https://666.666291.xyz",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mogg.js",
       "type": 101
     },
     {
@@ -96,36 +127,37 @@
       "type": 101
     },
     {
-      "name": "[盘] 奥秘",
+      "name": "[盘] 欧歌",
       "version": 3,
-      "webSite": "https://vip.omii.top",
+      "webSite": "https://woog.nxog.eu.org",
       "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/aomipan.js",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ouge.js",
       "type": 101
     },
     {
-      "name": "[盘] 大玩",
-      "version": 1,
-      "remark": "需海外IP",
-      "webSite": "http://149.88.87.18:6688",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dawanou.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 多多",
+      "name": "[盘] 玩偶",
       "version": 3,
-      "webSite": "https://tv.yydsys.top",
+      "webSite": "http://wogg.xxooo.cf",
       "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/duoduo.js",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/wobg.js",
       "type": 101
     },
     {
-      "name": "[盘] 二小",
-      "version": 1,
-      "webSite": "https://2xiaopan.fun",
+      "name": "[盘] 至臻",
+      "version": 4,
+      "webSite": "http://www.miqk.cc",
       "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/erxiao.js",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 茉莉",
+      "version": 2,
+      "remark": "🍃豆儿出品，不属精品！支持在线播放和网盘",
+      "webSite": "https://www.hdmoli.pro/",
+      "codeID": "OAxUOePWsN3I7NQfNIO9Il1I1cgolbSa",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Zong_HDmoli.txt",
       "type": 101
     },
     {
@@ -138,10 +170,40 @@
     },
     {
       "name": "[盘] 蜡笔",
-      "version": 3,
-      "webSite": "http://feimaoai.site",
+      "version": 4,
+      "webSite": "https://www.labi88.sbs",
       "order": "B",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/labipan.js",
+      "type": 101
+    },
+    {
+      "name": "[盘] 趣盘",
+      "version": 3,
+      "remark": "来自proversion2024，仅搜索",
+      "webSite": "https://pan.funletu.com",
+      "codeID": "LO5aQSJYBZLrRD1g",
+      "instance": "funletu20241124",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/funletu.txt",
+      "type": 100
+    },
+    {
+      "name": "[盘] 逸搜",
+      "version": 3,
+      "remark": "来自proversion2024，仅搜索",
+      "webSite": "https://www.tianyiso.com",
+      "codeID": "DU9z425w42hk9B8l",
+      "instance": "tianyiso20241129",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tianyiso.txt",
+      "type": 100
+    },
+    {
+      "name": "[盘] 闪电",
+      "version": 1,
+      "webSite": "http://1.95.79.193/",
+      "order": "B",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/shandian.js",
       "type": 101
     },
     {
@@ -156,73 +218,6 @@
       "type": 100
     },
     {
-      "name": "[盘] 木偶",
-      "version": 2,
-      "webSite": "https://666.666291.xyz",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mogg.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 南风",
-      "version": 1,
-      "webSite": "https://www.nanf.cc",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/nanfdj.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 欧歌",
-      "version": 3,
-      "webSite": "https://woog.nxog.eu.org",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ouge.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 闪电",
-      "version": 1,
-      "webSite": "http://1.95.79.193/",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/shandian.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 玩偶",
-      "version": 3,
-      "webSite": "http://wogg.xxooo.cf",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/wobg.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 小米",
-      "version": 3,
-      "webSite": "https://xiaomiai.site",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xiaomi.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 至臻",
-      "version": 4,
-      "webSite": "http://www.miqk.cc",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zhizhen.js",
-      "type": 101
-    },
-    {
-      "name": "[盘] 趣盘搜",
-      "version": 3,
-      "remark": "来自proversion2024，仅搜索",
-      "webSite": "https://pan.funletu.com",
-      "codeID": "LO5aQSJYBZLrRD1g",
-      "instance": "funletu20241124",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/funletu.txt",
-      "type": 100
-    },
-    {
       "name": "[盘] TG搜",
       "version": 6,
       "remark": "格式 频道名称1@频道id1&频道名称2@频道id2",
@@ -231,17 +226,6 @@
       "order": "B",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tgs.js",
       "type": 101
-    },
-    {
-      "name": "[盘] 天逸搜",
-      "version": 3,
-      "remark": "来自proversion2024，仅搜索",
-      "webSite": "https://www.tianyiso.com",
-      "codeID": "DU9z425w42hk9B8l",
-      "instance": "tianyiso20241129",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/tianyiso.txt",
-      "type": 100
     },
     {
       "name": "[盘] TG纯搜",
@@ -254,39 +238,7 @@
       "type": 101
     },
     {
-      "name": "[盘] PanSearch",
-      "version": 1,
-      "remark": "来自proversion2024，仅搜索",
-      "webSite": "https://www.pansearch.me",
-      "codeID": "UM9WK6x3sPm3mbUgJB2dJNs59vTyNynm",
-      "instance": "leiJing20241126",
-      "order": "B",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pansearch.txt",
-      "type": 101,
-      "isLock": "false,",
-      "noHistory": "false,"
-    },
-    {
-      "name": "[直] 蛋蛋剧",
-      "version": 2,
-      "webSite": "https://www.dandanju.tv",
-      "order": "C",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/dandanju.js",
-      "type": 101
-    },
-    {
-      "name": "[直] 囧次元",
-      "version": 2,
-      "remark": "网站填写[https://jocy.app]会自动获取最新网址，也可以在环境变量修改[囧次元更新网址]的值为1",
-      "env": "囧次元更新网址##填写1,然后在首页源列表重新切换到囧次元,可更新手动更新网址",
-      "webSite": "https://jocy.app",
-      "codeID": "cm7OBqdp0KChaJ7bg2OhuAyTgt8ufeyJ",
-      "order": "C",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jocy.js",
-      "type": 101
-    },
-    {
-      "name": "[直] 修罗影视",
+      "name": "[直] 修罗",
       "version": 2,
       "webSite": "https://xl01.com.de",
       "order": "C",
@@ -294,12 +246,23 @@
       "type": 101
     },
     {
-      "name": "[直] 两个BT",
-      "version": 2,
-      "webSite": "https://www.bttwoo.com",
+      "name": "[直] 欧乐",
+      "version": 3,
+      "remark": "需海外IP",
+      "webSite": "https://www.olehdtv.com",
+      "instance": "olevod20240620",
       "order": "C",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/bttwo.js",
-      "type": 101
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/olevod.js",
+      "type": 100
+    },
+    {
+      "name": "[直] 韩剧",
+      "version": 2,
+      "webSite": "https://www.hanjukankan.com",
+      "instance": "hjkk20240624",
+      "order": "C",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/hjkk.js",
+      "type": 100
     },
     {
       "name": "[直] 厂长影视",
@@ -310,12 +273,12 @@
       "type": 101
     },
     {
-      "name": "[直] 韩剧看看",
-      "version": 2,
-      "webSite": "https://www.hanjukankan.com",
-      "instance": "hjkk20240624",
+      "name": "[直] 在线之家",
+      "version": 3,
+      "webSite": "https://www.zxzjhd.com",
+      "instance": "zxzj20240620",
       "order": "C",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/hjkk.js",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
       "type": 100
     },
     {
@@ -325,25 +288,6 @@
       "order": "C",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jpyy.js",
       "type": 101
-    },
-    {
-      "name": "[直] 欧乐影视",
-      "version": 3,
-      "remark": "需海外IP",
-      "webSite": "https://www.olehdtv.com",
-      "instance": "olevod20240620",
-      "order": "C",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/olevod.js",
-      "type": 100
-    },
-    {
-      "name": "[直] 在线之家",
-      "version": 3,
-      "webSite": "https://www.zxzjhd.com",
-      "instance": "zxzj20240620",
-      "order": "C",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/zxzj.js",
-      "type": 100
     },
     {
       "name": "[直] 4k-av",
@@ -375,27 +319,20 @@
       "type": 100
     },
     {
+      "name": "[嗅] 立播",
+      "version": 1,
+      "remark": "🍃豆儿出品，不属精品！",
+      "webSite": "https://libvio.mov/",
+      "order": "D",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_libvio.js",
+      "type": 101
+    },
+    {
       "name": "[嗅] 路漫漫",
       "version": 1,
       "webSite": "https://www.lmm97.com",
       "order": "D",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_lmm.js",
-      "type": 101
-    },
-    {
-      "name": "[嗅] 八号影视",
-      "version": 1,
-      "webSite": "https://www.bahaotv.com",
-      "order": "D",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_bhys.js",
-      "type": 101
-    },
-    {
-      "name": "[嗅] 风车动漫",
-      "version": 1,
-      "webSite": "https://www.tt776b.com",
-      "order": "D",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_fcdm.js",
       "type": 101
     },
     {
@@ -415,11 +352,27 @@
       "type": 101
     },
     {
+      "name": "[嗅] 八号影视",
+      "version": 1,
+      "webSite": "https://www.bahaotv.com",
+      "order": "D",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_bhys.js",
+      "type": 101
+    },
+    {
       "name": "[嗅] 樱花动漫",
       "version": 1,
       "webSite": "https://www.vdm5.com",
       "order": "D",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_yhdm.js",
+      "type": 101
+    },
+    {
+      "name": "[嗅] 风车动漫",
+      "version": 1,
+      "webSite": "https://www.tt776b.com",
+      "order": "D",
+      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_fcdm.js",
       "type": 101
     },
     {
@@ -436,15 +389,6 @@
       "webSite": "http://www.mifun.tw",
       "order": "D",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mifun.js",
-      "type": 101
-    },
-    {
-      "name": "[嗅] LIBVIO",
-      "version": 1,
-      "remark": "🍃豆儿出品，不属精品！",
-      "webSite": "https://libvio.mov/",
-      "order": "D",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Xiu_libvio.js",
       "type": 101
     },
     {
@@ -472,18 +416,8 @@
       "type": 101
     },
     {
-      "api": "https://cjhwba.com/api.php/provide/vod/",
-      "name": "[采] 华为吧",
-      "type": 0
-    },
-    {
       "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
       "name": "[采] 天翼|4K",
-      "type": 0
-    },
-    {
-      "api": "https://cj.rycjapi.com/api.php/provide/vod",
-      "name": "[采] 如意",
       "type": 0
     },
     {
@@ -498,6 +432,11 @@
       "webSite": "https://cj.rycjapi.com/api.php/provide/vod",
       "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/cmsUser.js",
       "type": 101
+    },
+    {
+      "api": "https://mozhuazy.com/api.php/provide/vod/",
+      "name": "[采] 魔爪4k",
+      "type": 0
     },
     {
       "api": "https://json.heimuer.xyz/api.php/provide/vod/",
@@ -523,6 +462,18 @@
       "api": "https://tv.iill.top/m3u/Sport",
       "type": 10,
       "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
+    },
+    {
+      "name": "📡范明明IPv6",
+      "api": "https://cdn.jsdelivr.net/gh/fanmingming/live@refs/heads/main/tv/m3u/ipv6.m3u",
+      "type": 10,
+      "remark": "来自 范明明 大佬 https://github.com/fanmingming"
+    },
+    {
+      "name": "🛰️Govin",
+      "api": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+      "type": 10,
+      "remark": "来自 Guovin 大佬 https://github.com/Guovin"
     }
   ]
 }

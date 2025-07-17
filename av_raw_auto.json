@@ -1,20 +1,30 @@
 [
   {
-    "name": "[禁] 滴滴资源",
+    "name": "[禁] 乐播资源",
     "version": 4,
-    "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
+    "webSite": "https://lbapi9.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ddapi.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/lbapi9.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
   },
   {
-    "name": "[禁] 番号资源",
-    "version": 4,
-    "webSite": "http://fhapi9.com/api.php/provide/vod/",
+    "name": "[禁] 森林资源",
+    "version": 1,
+    "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/fhapi9.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/slapibf.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "[禁] 滴滴资源",
+    "version": 4,
+    "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/ddapi.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -31,22 +41,11 @@
     "noHistory": "1"
   },
   {
-    "name": "[禁] 精品资源",
+    "name": "[禁] 番号资源",
     "version": 4,
-    "remark": "需海外IP",
-    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
+    "webSite": "http://fhapi9.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jingpinx.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "[禁] 鸡坤资源",
-    "version": 4,
-    "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
-    "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jkunzyapi.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/fhapi9.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -62,11 +61,12 @@
     "noHistory": "1"
   },
   {
-    "name": "[禁] 乐播资源",
+    "name": "[禁] 精品资源",
     "version": 4,
-    "webSite": "https://lbapi9.com/api.php/provide/vod/",
+    "remark": "需海外IP",
+    "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/lbapi9.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jingpinx.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -82,11 +82,11 @@
     "noHistory": "1"
   },
   {
-    "name": "[禁] 森林资源",
-    "version": 1,
-    "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
+    "name": "[禁] 鸡坤资源",
+    "version": 4,
+    "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/slapibf.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jkunzyapi.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -112,22 +112,22 @@
     "noHistory": "1"
   },
   {
-    "name": "[禁] 香奶儿资源",
-    "version": 4,
-    "webSite": "https://www.gdlsp.com/api/json.php",
-    "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gdlsp.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
     "name": "[禁] jable",
     "version": 3,
     "remark": "需海外IP",
     "webSite": "https://jable.tv",
     "order": "E",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/jable.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "[禁] 淫水机资源",
+    "version": 5,
+    "webSite": "https://www.xrbsp.com/api/json.php",
+    "order": "E",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xrbsp.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -143,21 +143,21 @@
     "noHistory": "1"
   },
   {
-    "name": "[禁] 黄AV资源",
-    "version": 5,
-    "webSite": "https://www.pgxdy.com/api/json.php",
+    "name": "[禁] 香奶儿资源",
+    "version": 4,
+    "webSite": "https://www.gdlsp.com/api/json.php",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pgxdy.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/gdlsp.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
   },
   {
-    "name": "[禁] 淫水机资源",
+    "name": "[禁] 黄AV资源",
     "version": 5,
-    "webSite": "https://www.xrbsp.com/api/json.php",
+    "webSite": "https://www.pgxdy.com/api/json.php",
     "order": "E",
-    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/xrbsp.js",
+    "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/pgxdy.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
