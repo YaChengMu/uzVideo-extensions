@@ -384,14 +384,6 @@
       "type": 101
     },
     {
-      "name": "[嗅] mifun",
-      "version": 1,
-      "webSite": "http://www.mifun.tw",
-      "order": "D",
-      "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/mifun.js",
-      "type": 101
-    },
-    {
       "name": "[嗅] E-ACG2",
       "version": 1,
       "webSite": "https://eacg1.com",
