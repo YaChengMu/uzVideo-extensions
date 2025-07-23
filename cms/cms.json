@@ -9,6 +9,7 @@
   "api": "https://json.heimuer.xyz/api.php/provide/vod/",
   "name": "[采] 黑木耳",
   "order": "E",
+  "type": 0
 },
 {
   "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
@@ -18,7 +19,7 @@
 },
 {
   "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-  "name": "[采] 樱花|4K",,
+  "name": "[采] 樱花|4K",
   "order": "E",
   "type": 0
 }]
