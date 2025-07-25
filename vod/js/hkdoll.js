@@ -1,6 +1,6 @@
 // ignore
 //@name:[禁] 玩偶姐姐
-//@version:5
+//@version:6
 //@webSite:https://hongkongdollvideo.com
 //@remark:需海外IP
 //@isAV:1
@@ -239,7 +239,7 @@ async function getVideoPlayUrl(args) {
             var context = cipherText.substring(0, cipherText.length - 32)
             // const playConfig = JSON.parse(xorDec(context, md5)).player.param
             let playConfig = JSON.parse(xorDec(context, md5)).player
-            let video_id = reqUrl.match(/\/video\/([0-9a-f]+)\.html/)[1]
+            // let video_id = reqUrl.match(/\/video\/([0-9a-f]+)\.html/)[1]
             let embedUrl = playConfig.embedUrl
             UZUtils.debugLog(embedUrl)
             // let video_arg = embedUrl.match(/.*?\/([a-f0-9]{20,})$/)[1]
