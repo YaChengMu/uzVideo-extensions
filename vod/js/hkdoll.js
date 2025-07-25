@@ -1,6 +1,6 @@
 // ignore
 //@name:[禁] 玩偶姐姐
-//@version:2
+//@version:3
 //@webSite:https://hongkongdollvideo.com
 //@remark:需海外IP
 //@isAV:1
@@ -233,36 +233,43 @@ async function getVideoPlayUrl(args) {
         if (proData) {
             const $ = cheerio.load(proData)
             // const script = $('.video-player-container script').text()
-            var cipherText = $("#footer-banner").next().text().match(/__PAGE_PARAMS__=(.*?);/)[1].replace('"', "").replace('"', "")
+            var cipherText = $("#footer-banner").next().text().match(/__PAGE__PARAMS__=(.*?);/)[1].replace('"', "").replace('"', "")
 
             var md5 = cipherText.slice(-32)
             var context = cipherText.substring(0, cipherText.length - 32)
-            const playConfig = JSON.parse(xorDec(context, md5)).player.param
+            // const playConfig = JSON.parse(xorDec(context, md5)).player.param
+            let playConfig = JSON.parse(xorDec(context, md5)).player
             let video_id = reqUrl.match(/\/video\/([0-9a-f]+)\.html/)[1]
             let embedUrl = playConfig.embedURL
             UZUtils.debugLog(embedUrl)
-            let video_arg = embedUrl.match(/.*?\/([a-f0-9]{20,})$/)[1]
-            let timestamp = video_arg.substr(-10)
-            let key = base64Encode((video_id + '-' + timestamp.toString()).split('').reverse().join('')).replaceAll('=', '')
+            // let video_arg = embedUrl.match(/.*?\/([a-f0-9]{20,})$/)[1]
+            // let timestamp = video_arg.substr(-10)
+            // let key = base64Encode((video_id + '-' + timestamp.toString()).split('').reverse().join('')).replaceAll('=', '')
 
-            let videoSrc = strDecode(playConfig.arg, key)
+            // let videoSrc = strDecode(playConfig.arg, key)
 
-            function strDecode(string, key) {
-                string = base64Decode(string)
-                let len = key.length
-                let code = ''
-                for (let i = 0; i < string.length; i++) {
-                    let k = i % len
-                    code += String.fromCharCode(string.charCodeAt(i) ^ key.charCodeAt(k))
-                }
-                return decodeURIComponent(base64Decode(code))
-            }
-            function base64Encode(text) {
-                return Crypto.enc.Base64.stringify(Crypto.enc.Utf8.parse(text))
-            }
-            function base64Decode(text) {
-                return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text))
-            }
+            // function strDecode(string, key) {
+            //     string = base64Decode(string)
+            //     let len = key.length
+            //     let code = ''
+            //     for (let i = 0; i < string.length; i++) {
+            //         let k = i % len
+            //         code += String.fromCharCode(string.charCodeAt(i) ^ key.charCodeAt(k))
+            //     }
+            //     return decodeURIComponent(base64Decode(code))
+            // }
+            // function base64Encode(text) {
+            //     return Crypto.enc.Base64.stringify(Crypto.enc.Utf8.parse(text))
+            // }
+            // function base64Decode(text) {
+            //     return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text))
+            // }
+            let token=embedUrl.match(/[?&]token=([a-f0-9]+)/i);
+            let _0x1df1c5 = token.slice(-10)
+            let _0x2c272d = md5(_0x1df1c5).slice(8, 24).split('').reverse().join(''),
+            _0x32366e = token.slice(0, -10)
+            let _0x4049bd = xorDec(_0x32366e, _0x2c272d)
+            let videoSrc = JSON.parse(_0x4049bd).stream
 
             backData.data = videoSrc
         }
