@@ -1,6 +1,6 @@
 // ignore
 //@name:[禁] 玩偶姐姐
-//@version:6
+//@version:7
 //@webSite:https://hongkongdollvideo.com
 //@remark:需海外IP
 //@isAV:1
@@ -8,6 +8,49 @@
 //@noHistory:1
 //@isLock:1
 // ignore
+// ignore
+// 不支持导入，这里只是本地开发用于代码提示
+// 如需添加通用依赖，请联系 https://t.me/uzVideoAppbot
+import {
+    FilterLabel,
+    FilterTitle,
+    VideoClass,
+    VideoSubclass,
+    VideoDetail,
+    RepVideoClassList,
+    RepVideoSubclassList,
+    RepVideoList,
+    RepVideoDetail,
+    RepVideoPlayUrl,
+    UZArgs,
+    UZSubclassVideoListArgs,
+} from '../core/uzVideo.js'
+
+import {
+    UZUtils,
+    ProData,
+    ReqResponseType,
+    ReqAddressType,
+    req,
+    getEnv,
+    setEnv,
+    goToVerify,
+    openWebToBindEnv,
+    toast,
+    kIsDesktop,
+    kIsAndroid,
+    kIsIOS,
+    kIsWindows,
+    kIsMacOS,
+    kIsTV,
+    kLocale,
+    kAppVersion,
+    formatBackData,
+} from '../core/uzUtils.js'
+
+import { cheerio, Crypto, Encrypt, JSONbig } from '../core/uz3lib.js'
+// ignore
+
 const appConfig = {
     _webSite: 'https://hongkongdollvideo.com',
     /**
@@ -266,7 +309,8 @@ async function getVideoPlayUrl(args) {
             // }
             let token=embedUrl.match(/[?&]token=([a-f0-9]+)/i)[1];
             let _0x1df1c5 = token.slice(-10)
-            let _0x2c272d = Crypto.MD5(_0x1df1c5).slice(8, 24).split('').reverse().join(''),
+            UZUtils.debugLog(Crypto.MD5(_0x1df1c5).toString())
+            let _0x2c272d = Crypto.MD5(_0x1df1c5).toString().slice(8, 24).split('').reverse().join(''),
             _0x32366e = token.slice(0, -10)
             let _0x4049bd = xorDec(_0x32366e, _0x2c272d)
             let videoSrc = JSON.parse(_0x4049bd).stream
