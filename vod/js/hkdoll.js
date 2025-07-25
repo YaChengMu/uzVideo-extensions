@@ -1,6 +1,6 @@
 // ignore
 //@name:[禁] 玩偶姐姐
-//@version:4
+//@version:5
 //@webSite:https://hongkongdollvideo.com
 //@remark:需海外IP
 //@isAV:1
@@ -264,9 +264,9 @@ async function getVideoPlayUrl(args) {
             // function base64Decode(text) {
             //     return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text))
             // }
-            let token=embedUrl.match(/[?&]token=([a-f0-9]+)/i);
+            let token=embedUrl.match(/[?&]token=([a-f0-9]+)/i)[1];
             let _0x1df1c5 = token.slice(-10)
-            let _0x2c272d = md5(_0x1df1c5).slice(8, 24).split('').reverse().join(''),
+            let _0x2c272d = Crypto.MD5(_0x1df1c5).slice(8, 24).split('').reverse().join(''),
             _0x32366e = token.slice(0, -10)
             let _0x4049bd = xorDec(_0x32366e, _0x2c272d)
             let videoSrc = JSON.parse(_0x4049bd).stream
