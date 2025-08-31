@@ -1,5 +1,24 @@
 [
  {
+      "name": "📡Mursor-直播源",
+      "api": "https://raw.githubusercontent.com/Mursor1985/LIVE/refs/heads/main/iptv.m3u",
+      "type": 10,
+      "remark": "来自 Mursor-直播源 大佬 https://github.com/Mursor1985",
+      "ua": "okHttp/Mod-1.2.0"
+ },
+ {
+      "name": "📡catvod-直播源",
+      "api": "https://live.catvod.com/tv.m3u",
+      "type": 10,
+      "remark": "来自 catvod-直播源 大佬 https://github.com/catvod/catvod",
+      "ua": "catvod.com"
+ },
+ {
+      "name": "📡AKTV-直播源",
+      "api": "https://aktv.space/live.m3u",
+      "type": 10
+ },
+ {
       "name": "📺电视直播",
       "api": "https://tv.iill.top/m3u/Gather",
       "type": 10,
