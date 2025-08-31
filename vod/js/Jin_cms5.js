@@ -1,7 +1,7 @@
 // ignore
-//@name:[禁] 色猫资源
+//@name:[禁] CK资源
 //@version:1
-//@webSite:https://api.maozyapi.com/inc/apijson_vod.php
+//@webSite:https://ckzy.me/api.php/provide/vod
 //@remark:
 //@isAV:1
 //@order: E
@@ -13,7 +13,7 @@ const appConfig = {
         'User-Agent':
             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
     },
-    _webSite: 'https://api.maozyapi.com/inc/apijson_vod.php',
+    _webSite: 'https://ckzy.me/api.php/provide/vod',
     /**
      * 网站主页，uz 调用每个函数前都会进行赋值操作
      * 如果不想被改变 请自定义一个变量
