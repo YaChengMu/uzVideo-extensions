@@ -1,10 +1,20 @@
 [
   {
+    "name": "[禁] CK资源",
+    "version": 1,
+    "webSite": "https://ckzy.me/api.php/provide/vod",
+    "order": "E",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms5.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
     "name": "[禁] 乐播资源",
     "version": 4,
     "webSite": "https://lbapi9.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_lbapi9.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms15.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -14,7 +24,7 @@
     "version": 1,
     "webSite": "https://beiyong.slapibf.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_slapibf.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms16.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -24,7 +34,17 @@
     "version": 4,
     "webSite": "https://api.ddapi.cc/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_ddapi.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms6.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "[禁] 玉兔资源",
+    "version": 1,
+    "webSite": "https://apiyutu.com/api.php/provide/vod",
+    "order": "E",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms3.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -35,7 +55,7 @@
     "remark": "需海外IP",
     "webSite": "https://hongkongdollvideo.com",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_hkdoll.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_hkdool.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -45,7 +65,7 @@
     "version": 4,
     "webSite": "http://fhapi9.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_fhapi9.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms7.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -55,7 +75,17 @@
     "version": 4,
     "webSite": "https://www.kxgav.com/api/json.php",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_kxgav.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms14.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "[禁] 百万资源",
+    "version": 1,
+    "webSite": "https://api.bwzym3u8.com/api.php/provide/vod",
+    "order": "E",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms4.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -66,17 +96,7 @@
     "remark": "需海外IP",
     "webSite": "https://www.jingpinx.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_jingpinx.js",
-    "type": 101,
-    "isLock": "1",
-    "noHistory": "1"
-  },
-  {
-    "name": "[禁] 色猫资源",
-    "version": 1,
-    "webSite": "https://api.maozyapi.com/inc/apijson_vod.php",
-    "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_maozyapi.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms12.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -86,7 +106,17 @@
     "version": 4,
     "webSite": "https://jkunzyapi.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_jkunzyapi.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms13.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "[禁] 黄色仓库",
+    "version": 1,
+    "webSite": "https://hsckzy.vip/api.php/provide/vod",
+    "order": "E",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms10.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -96,7 +126,7 @@
     "version": 4,
     "webSite": "https://155api.com/api.php/provide/vod/",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_155api.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms1.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -123,11 +153,21 @@
     "noHistory": "1"
   },
   {
+    "name": "[禁] lsb资源",
+    "version": 1,
+    "webSite": "https://apilsbzy1.com/api.php/provide/vod",
+    "order": "E",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms2.js",
+    "type": 101,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
     "name": "[禁] 淫水机资源",
     "version": 5,
     "webSite": "https://www.xrbsp.com/api/json.php",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_xrbsp.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms18.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -137,7 +177,7 @@
     "version": 4,
     "webSite": "https://www.msnii.com/api/json.php",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_msnii.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms9.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -147,7 +187,7 @@
     "version": 4,
     "webSite": "https://www.gdlsp.com/api/json.php",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_gdlsp.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms8.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -157,7 +197,7 @@
     "version": 5,
     "webSite": "https://www.pgxdy.com/api/json.php",
     "order": "E",
-    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_pgxdy.js",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms11.js",
     "type": 101,
     "isLock": "1",
     "noHistory": "1"
@@ -183,6 +223,16 @@
     "order": "E",
     "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_netflav.js",
     "type": 100,
+    "isLock": "1",
+    "noHistory": "1"
+  },
+  {
+    "name": "[禁] souav资源",
+    "version": 1,
+    "webSite": "https://api.souavzy.vip/api.php/provide/vod",
+    "order": "E",
+    "api": "https://cdn.jsdelivr.net/gh/YaChengMu/uzVideo-extensions@main/vod/js/Jin_cms17.js",
+    "type": 101,
     "isLock": "1",
     "noHistory": "1"
   }
