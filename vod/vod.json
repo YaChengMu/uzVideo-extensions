@@ -335,12 +335,6 @@
     "type": 0
   },
   {
-    "api": "https://json.heimuer.xyz/api.php/provide/vod/",
-    "name": "[采] 黑木耳",
-    "order": "D4",
-    "type": 0
-  },
-  {
     "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
     "name": "[采] 天翼|4K",
     "order": "D5",
