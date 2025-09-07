@@ -74,11 +74,6 @@
       "ua": "catvod.com"
     },
     {
-      "name": "📡AKTV-直播源",
-      "api": "https://aktv.space/live.m3u",
-      "type": 10
-    },
-    {
       "name": "📺电视直播",
       "api": "https://tv.iill.top/m3u/Gather",
       "type": 10,
