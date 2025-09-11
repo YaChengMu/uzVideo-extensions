@@ -335,8 +335,14 @@
     "type": 0
   },
   {
-    "api": "https://www.911ysw.top/tianyi.php/provide/vod/at/json",
-    "name": "[采] 天翼|4K",
+    "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
+    "name": "[采] 电影天堂",
+    "order": "D4",
+    "type": 0
+  },
+  {
+    "api": "https://www.ryzyw.com//api.php/provide/vod",
+    "name": "[采] 如意资源",
     "order": "D5",
     "type": 0
   },
@@ -348,11 +354,5 @@
     "order": "D5",
     "api": "https://raw.githubusercontent.com/YaChengMu/uzVideo-extensions/main/vod/js/Cai_cmsUser.js",
     "type": 101
-  },
-  {
-    "api": "https://m3u8.apiyhzy.com/api.php/provide/vod",
-    "name": "[采] 樱花|4K",
-    "order": "D6",
-    "type": 0
   }
 ]
