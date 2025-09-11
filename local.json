@@ -432,12 +432,6 @@
     "type": 0
   },
   {
-    "api": "https://caiji.dyttzyapi.com/api.php/provide/vod",
-    "name": "[采] 电影天堂",
-    "order": "D4",
-    "type": 0
-  },
-  {
     "api": "https://www.ryzyw.com//api.php/provide/vod",
     "name": "[采] 如意资源",
     "order": "D5",
