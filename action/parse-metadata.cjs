@@ -101,6 +101,8 @@ const parseComments = (filePath) => {
         instance: extractValue(content, '@instance:'),
         isAV: extractValue(content, '@isAV:'),
         order: extractValue(content, '@order:'),
+    	isLock: extractValue(content, '@isLock:'),
+    	noHistory: extractValue(content, '@noHistory:'),
     }
 
     if (!metadata.name) return null
@@ -293,6 +295,8 @@ const main = async () => {
                     ...(metadata.order && { order: metadata.order }),
                     api: metadata.api,
                     type: parseInt(metadata.type) || TYPE_MAPPING[dir] || 101,
+                    ...(metadata.isLock && { isLock: metadata.isLock }),
+                    ...(metadata.noHistory && { noHistory: metadata.noHistory })
                 }
 
                 if (parseInt(metadata.isAV) === 1) {

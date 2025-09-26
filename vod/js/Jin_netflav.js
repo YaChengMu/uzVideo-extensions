@@ -1,11 +1,14 @@
 //@name:[禁] netflav
 //@version:2
 //@webSite:https://www.netflav.com
-//@remark:
+//@remark:需海外IP
 //@type:100
 //@instance:netflav20240905
 //@isAV:1
 //@order: E
+//@noHistory:1
+//@isLock:1
+
 class netflavClass extends WebApiBase {
     constructor() {
         super()

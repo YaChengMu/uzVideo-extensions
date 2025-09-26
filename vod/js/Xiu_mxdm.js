@@ -2,7 +2,7 @@
 //@name:[嗅] MX动漫
 //@version:1
 //@webSite:https://www.mxdm6.com
-//@remark:
+//@remark:需海外IP
 //@order: C
 // ignore
 

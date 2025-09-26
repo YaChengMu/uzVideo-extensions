@@ -2,7 +2,7 @@
 //@name:[直] 欧乐
 //@version:3
 //@webSite:https://www.olehdtv.com
-//@remark:
+//@remark:需海外IP
 //@type:100
 //@instance:olevod20240620
 //@order: B

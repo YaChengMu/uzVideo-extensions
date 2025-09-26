@@ -4,5 +4,11 @@
     "name": "[采] 魔爪4k",
     "order": "D3",
     "type": 0
+  },
+  {
+    "api": "https://www.ryzyw.com/api.php/provide/vod",
+    "name": "[采] 如意资源",
+    "order": "D5",
+    "type": 0
   }
 ]
