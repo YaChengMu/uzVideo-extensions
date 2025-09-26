@@ -1,7 +1,7 @@
 [
  {
       "name": "📡Mursor-直播源",
-      "api": "https://raw.githubusercontent.com/Mursor1985/LIVE/refs/heads/main/iptv.m3u",
+      "api": "https://live.ottiptv.cc/iptv.m3u",
       "type": 10,
       "remark": "来自 Mursor 大佬 https://github.com/mursor1985"
  },
