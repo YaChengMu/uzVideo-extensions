@@ -12,6 +12,12 @@
       "remark": "来自 catvod-直播源 大佬 https://github.com/catvod/catvod"
  },
  {
+      "name": "📡FYTV源(港澳台)",
+      "api": "http://iptv.4666888.xyz/FYTV.m3u",
+      "type": 10,
+      "remark": ""
+ },
+ {
       "name": "📺电视直播",
       "api": "https://tv.iill.top/m3u/Gather",
       "type": 10,
