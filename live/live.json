@@ -1,11 +1,5 @@
 [
  {
-      "name": "📡Mursor-直播源",
-      "api": "https://live.ottiptv.cc/iptv.m3u",
-      "type": 10,
-      "remark": "来自 Mursor 大佬 https://github.com/mursor1985"
- },
- {
       "name": "📡catvod-直播源",
       "api": "https://live.catvod.com/tv.m3u",
       "type": 10,
@@ -34,30 +28,6 @@
       "api": "https://tv.iill.top/m3u/Sport",
       "type": 10,
       "remark": "来自 YanG-1989 大佬 https://github.com/YanG-1989"
-  },
-  {
-      "name": "🐯虎牙一起看",
-      "api": "https://sub.ottiptv.cc/huyayqk.m3u",
-      "type": 10,
-      "remark": "来自 Mursor 大佬 https://github.com/mursor1985"
-  },
-  {
-      "name": "🐟斗鱼一起看",
-      "api": "https://sub.ottiptv.cc/douyuyqk.m3u",
-      "type": 10,
-      "remark": "来自 Mursor 大佬 https://github.com/mursor1985"
-  },
-  {
-      "name": "🔄YY轮播",
-      "api": "https://sub.ottiptv.cc/yylunbo.m3u",
-      "type": 10,
-      "remark": "来自 Mursor 大佬 https://github.com/mursor1985"
-  },
-  {
-      "name": "📺哔哩直播",
-      "api": "https://sub.ottiptv.cc/bililive.m3u",
-      "type": 10,
-      "remark": "来自 Mursor 大佬 https://github.com/mursor1985"
   },
   {
       "name": "📡范明明IPv6",
